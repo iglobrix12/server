@@ -1,8 +1,0 @@
-Speed: 1.5
-&d&lSHULKER
-&f&lSHULKER
-&e&lSHULKER
-&b&lSHULKER
-&a&lSHULKER
-&c&lSHULKER
-&6&lSHULKER

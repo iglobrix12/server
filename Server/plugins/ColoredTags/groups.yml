@@ -1,7 +1,0 @@
-default: '§7'
-gold: '&e&lGOLD &e'
-diamond: '&b&lDIAMOND &b'
-emerald: '&a&lEMERALD &a'
-magma: '&c&lMAGMA &c'
-shulker: '&f&lSHULKER &f'
-admin: '&c&lADMIN &f'

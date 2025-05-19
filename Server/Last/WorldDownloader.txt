@@ -1,4 +1,0 @@
-#
-#Thu Mar 23 13:52:46 EET 2017
-LinkedWorlds=
-ServerName=\ 
