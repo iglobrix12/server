@@ -1,0 +1,118 @@
+# Config - Plugin made by Wazup92!
+# If Rollback is set to false, players wont be able to break/place blocks, and carepackages will stay on the map
+# If Set-Heads-Above-Top-Signs is set to true it might increase the lag when updating top signs!
+# There is one variable for Winner-Executed-Commands, %player%
+# There is one variable for Arena-Start-Executed-Commands, %world%
+# There are three variables for Player-Kill-Player-Executed-Commands, %player%, %killer%, %world%
+
+Win-Coins: 20
+Kill-Coins: 5
+Broadcast-Winner: true
+Broadcast-Arena-Starting: true
+Rollback: true
+Winning-Fireworks-Time: 15
+Load-Top-Leaders-Minutes: 60
+Colored-And-Shaped-Fireworks: true
+Give-Compass-At-Start: false
+Give-Winner-Map: false
+Display-Image-On-Winner-Map: false
+Image-URL: http://i.imgur.com/FrgIjmJ.png
+Can-Players-Join-As-A-Spectator: true
+Spectators-Separate-Chat: true
+Compass-Max-Radius: 200
+Strike-Lightning-On-Death: true
+Shop-Inventory-Size: 36
+Kits-Inventory-Size: 36
+Vote-Inventory-Size: 18
+Starting-Coins: 140
+Teleport-To-Global-Lobby-On-Leave: true
+Carepackage-Content: 1
+Carepackage-Drops-In-Seconds: 10
+Carepackage-Needed-Height: 20
+Display-Coins-In-Chat: false
+Give-Book: false
+Can-Spectators-Open-Players-Inventories: true
+Spectator-Leave-Item: true
+Lobby-Leave-Item: true
+Shop-Enabled: true
+Kits-Enabled: true
+Sponsor-Enabled: false
+Load-Arenas-Delay-OnEnable: 10
+Load-Holographic-Stats-Delay-OnEnable: 10
+Safe-Arena-Creation: true
+Blocks-Per-Ticks: 50000
+Runs-Every-Ticks: 1
+Send-Message-Every-Blocks: 3000000
+Kits-Inventory-Name: '&cКиты для донатеров'
+Shop-Inventory-Name: '&3SurvivalGames &e- &6Items Shop'
+Vote-Inventory-Name: '&4Vote for an arena!'
+Teleporter-Inventory-Name: '&1Выжившие игроки'
+Shop-Item-Stack: 388
+Shop-Item-Stack-Name: '&eМагазин &7[ПКМ]'
+Kits-Item-Stack: 54
+Kits-Item-Stack-Name: '&eКиты для донатеров &7[ПКМ]'
+Leave-Item-Stack: 378
+Leave-Item-Stack-Name: '&eВыход &7[ПКМ]'
+Voting-Item-Stack: 339
+Voting-Item-Stack-Name: '&eVote!'
+Back-Item-Stack: 341
+Back-Item-Stack-Name: '&eВыход'
+Sponsor-Item-Stack: 264
+Sponsor-Item-Stack-Name: '&bSponsor!'
+Kit-Menu-OwnedKits-Item: 397
+Kit-Menu-OwnedKits-Name: '&aТвои киты'
+Kit-Menu-PurchaseableKits-Item: 264
+Kit-Menu-PurchaseableKits-Name: '&cПриобрести больше наборы!'
+Kit-Menu-VipKits-Item: 388
+Kit-Menu-VipKits-Name: '&eКиты'
+Allowed-Commands:
+- sg
+- survivalgames
+- tell
+- msg
+- help
+- helpop
+Disabled-Items:
+- 325
+- 326
+- 327
+breakAbleBlocks:
+- 18
+placeAbleBlocks:
+- 51
+use-Vault: true
+use-UUID: false
+use-mysql: false
+table-prefix: sg_
+mysql-host: localhost
+mysql-port: 3306
+mysql-database: Games
+mysql-username: root
+mysql-password: root
+Bungee-Mode: false
+Bungee-Mode-MinPlayers: 3
+Bungee-Mode-MaxPlayers: 24
+Bungee-Mode-Default-Wait-Time: 180
+Bungee-Mode-LockVotesAt: 10
+Bungee-Mode-Time-Skipped-To: 30
+Bungee-Mode-Extended-Time: 60
+Bungee-Mode-Skip-When-Players-Reached: 5
+Bungee-Mode-Randomise-Maps: false
+Bungee-Mode-Amount-Of-Randomised-Maps: 3
+Bungee-Mode-Main-Server: lobby
+Bungee-Mode-Safe-Rollback: false
+Bungee-Mode-Delay-Till-Server-Close: 5
+Bungee-Mode-Commands-Executed-At-The-End:
+- restart
+Winner-Executed-Commands: []
+Vip-Winner-Executed-Commands: []
+Arena-Start-Executed-Commands:
+- time set 1000 %world%
+Player-Kill-Player-Executed-Commands: []
+Global-Lobby:
+  world: world
+  x: 148
+  y: 114
+  z: -103
+  yaw: 0.23277012
+  pitch: -4.7999516

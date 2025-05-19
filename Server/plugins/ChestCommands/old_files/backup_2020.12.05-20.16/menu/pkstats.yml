@@ -1,0 +1,101 @@
+﻿menu-settings:
+  name: 'Статистика Parkour'
+  rows: 5
+  command: 'pkstats'
+pk:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 1'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Gold'
+  ID: 317
+  POSITION-X: 3
+  POSITION-Y: 2
+pk1:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 2'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Air'
+  ID: 317
+  POSITION-X: 4
+  POSITION-Y: 2
+pk2:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 3'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Library'
+  ID: 317
+  POSITION-X: 5
+  POSITION-Y: 2
+pk3:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 4'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Nether'
+  ID: 317
+  POSITION-X: 6
+  POSITION-Y: 2
+pk4:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 5'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Ender'
+  ID: 317
+  POSITION-X: 7
+  POSITION-Y: 2
+pk5:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 6'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Jungle'
+  ID: 317
+  POSITION-X: 3
+  POSITION-Y: 3
+pk6:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 7'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Send'
+  ID: 317
+  POSITION-X: 4
+  POSITION-Y: 3
+pk7:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 8'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Mine'
+  ID: 317
+  POSITION-X: 5
+  POSITION-Y: 3
+pk8:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 9'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9Town'
+  ID: 317
+  POSITION-X: 6
+  POSITION-Y: 3
+pk9:
+  COMMAND: 'sound: click, 3.0, 3.0;pk best 10'
+  NAME: '&bParkour'
+  KEEP-OPEN: false
+  LORE:  
+  - '&7Топы карты: &9TingWork'
+  ID: 317
+  POSITION-X: 7
+  POSITION-Y: 3
+выход:
+  COMMAND: 'stat'
+  NAME: '&aВыход...'
+  KEEP-OPEN: true
+  ID: 166
+  POSITION-X: 5
+  POSITION-Y: 5

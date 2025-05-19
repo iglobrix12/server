@@ -1,0 +1,58 @@
+menu-settings:
+  name: Выбор арен - BuildBattle
+  rows: 4
+  command: buildb
+  open-action: ''
+'1':
+  ID: ender_pearl
+  COMMAND: 'warp BuildBattle'
+  NAME: §bТелепорт к выбору Арен
+  LORE:
+  - §8Телепортация
+  - ''
+  - §7Вы будете перемещены на
+  - §7место где можно будет выбрать
+  - §7карту старым способом.
+  - ''
+  - §e▸ Нажмите, чтобы телепортироваться
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'2':
+  ID: 401
+  COMMAND: 'bb'
+  NAME: §bВыбор Арен через меню
+  LORE:
+  - §8Меню
+  - ''
+  - §7Вам откроется меню с аренами
+  - §7где вы сможете выбрать себе
+  - §7карту самим.
+  - ''
+  - §e▸ Нажмите, чтобы открыть меню
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'3':
+  ID: 345
+  COMMAND: 'bb join'
+  NAME: §bБыстрая игра
+  LORE:
+  - §8Быстрая игра
+  - ''
+  - §7Вас перекинет в более подходящую
+  - §7игру для вас, и вам не прийдётся ждать
+  - ''
+  - §e▸ Нажмите, чтобы открыть меню
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'4':
+  ID: 'barrier'
+  COMMAND: 'menu'
+  NAME: §bГлавное меню
+  LORE:
+  - §7Вернуться в главное меню
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

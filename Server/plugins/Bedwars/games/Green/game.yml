@@ -1,0 +1,301 @@
+name: Green
+world: Green
+loc1:
+  world: Green
+  x: 126.31589872977892
+  y: 124.20277499851989
+  z: -109.32005241120137
+  pitch: 37.649986267089844
+  yaw: -304.79974365234375
+loc2:
+  world: Green
+  x: -91.07339280430475
+  y: -1.7409435676220535
+  z: 92.72031250081308
+  pitch: -13.049932479858398
+  yaw: -141.14952087402344
+lobby:
+  world: lobby
+  x: 5008.5
+  y: 122.0
+  z: 5033.5
+  pitch: -4.350000858306885
+  yaw: -179.86407470703125
+minplayers: 4
+record: 60
+record-holders:
+- Sania
+- SuperKa4ok
+regionname: Green
+time: 1000
+targetmaterial: BED_BLOCK
+builder: GrandCraft
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Green
+    x: 0.5
+    y: 65.5
+    z: 70.5
+    pitch: 68.8499984741211
+    yaw: -40.35000228881836
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Green
+    x: 0.5
+    y: 65.5
+    z: 70.5
+    pitch: 68.8499984741211
+    yaw: -40.35000228881836
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Green
+    x: 70.5
+    y: 65.5
+    z: 0.5
+    pitch: 70.34996032714844
+    yaw: -89.0999755859375
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Green
+    x: 70.5
+    y: 65.5
+    z: 0.5
+    pitch: 70.34996032714844
+    yaw: -89.0999755859375
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Green
+    x: 0.5
+    y: 65.5
+    z: -69.5
+    pitch: 58.04999923706055
+    yaw: -194.0999755859375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Green
+    x: 0.5
+    y: 65.5
+    z: -69.5
+    pitch: 58.04999923706055
+    yaw: -194.0999755859375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Green
+    x: -69.5
+    y: 65.5
+    z: 0.5
+    pitch: 72.29998016357422
+    yaw: -269.8503723144531
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Green
+    x: -69.5
+    y: 65.5
+    z: 0.5
+    pitch: 72.29998016357422
+    yaw: -269.8503723144531
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Green
+    x: -39.5
+    y: 65.0
+    z: -39.5
+    pitch: 76.79995727539062
+    yaw: -130.9502716064453
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Green
+    x: -39.5
+    y: 65.0
+    z: 40.5
+    pitch: 69.74995422363281
+    yaw: 1.6497317552566528
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Green
+    x: 40.5
+    y: 65.0
+    z: 40.5
+    pitch: 90.0
+    yaw: -125.10028839111328
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Green
+    x: 40.5
+    y: 65.0
+    z: -39.5
+    pitch: 87.60002136230469
+    yaw: -173.25015258789062
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Green
+    x: 24.5
+    y: 57.0
+    z: -23.5
+    pitch: 80.40009307861328
+    yaw: -318.3001403808594
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Green
+    x: -23.5
+    y: 57.0
+    z: -23.5
+    pitch: 63.6001091003418
+    yaw: -62.849853515625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Green
+    x: -23.5
+    y: 57.0
+    z: 24.5
+    pitch: 50.10011672973633
+    yaw: 48.9001350402832
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Green
+    x: 24.5
+    y: 57.0
+    z: 24.5
+    pitch: 74.10012817382812
+    yaw: 55.35012435913086
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Green
+    x: 10.5
+    y: 65.0
+    z: 10.5
+    pitch: 73.80008697509766
+    yaw: 127.80023193359375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Green
+    x: -9.5
+    y: 65.0
+    z: -9.5
+    pitch: 76.80003356933594
+    yaw: 130.05023193359375
+teams:
+  Зеленый:
+    ==: Team
+    bedfeed:
+      world: Green
+      x: 0.0
+      y: 66.0
+      z: -55.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Green
+      x: 0.5
+      y: 66.0
+      z: -65.5
+      pitch: -0.7499248385429382
+      yaw: -1.220703125E-4
+    color: GREEN
+    name: Зеленый
+    maxplayers: 4
+    bedhead:
+      world: Green
+      x: 0.0
+      y: 66.0
+      z: -56.0
+      pitch: 0.0
+      yaw: 0.0
+  Желтый:
+    ==: Team
+    bedfeed:
+      world: Green
+      x: 0.0
+      y: 66.0
+      z: 55.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Green
+      x: 0.5
+      y: 66.0
+      z: 66.5
+      pitch: 0.7500016689300537
+      yaw: -180.29994201660156
+    color: YELLOW
+    name: Желтый
+    maxplayers: 4
+    bedhead:
+      world: Green
+      x: 0.0
+      y: 66.0
+      z: 56.0
+      pitch: 0.0
+      yaw: 0.0
+  Красный:
+    ==: Team
+    bedfeed:
+      world: Green
+      x: 55.0
+      y: 66.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Green
+      x: 66.5
+      y: 66.0
+      z: 0.5
+      pitch: -0.2999800741672516
+      yaw: -269.8500061035156
+    color: RED
+    name: Красный
+    maxplayers: 4
+    bedhead:
+      world: Green
+      x: 56.0
+      y: 66.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+  Синий:
+    ==: Team
+    bedfeed:
+      world: Green
+      x: -55.0
+      y: 66.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Green
+      x: -65.5
+      y: 66.0
+      z: 0.5
+      pitch: 1.1790394637500867E-4
+      yaw: -90.29949951171875
+    color: BLUE
+    name: Синий
+    maxplayers: 4
+    bedhead:
+      world: Green
+      x: -56.0
+      y: 66.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0

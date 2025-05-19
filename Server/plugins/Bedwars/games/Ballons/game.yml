@@ -1,0 +1,245 @@
+name: Ballons
+world: Ballons
+loc1:
+  world: Ballons
+  x: 73.73820680057592
+  y: 26.558905609417078
+  z: 83.60061964526507
+  pitch: -14.699999809265137
+  yaw: 140.09999084472656
+loc2:
+  world: Ballons
+  x: -89.96415795296936
+  y: 120.6716379481257
+  z: -66.3739166104378
+  pitch: 30.749998092651367
+  yaw: 302.550048828125
+lobby:
+  world: lobby
+  x: 5008.5
+  y: 122.0
+  z: 5033.5
+  pitch: -4.800050258636475
+  yaw: -180.0139923095703
+minplayers: 4
+record: 79
+record-holders:
+- _DoubelKiller_
+regionname: Ballons
+time: 1000
+targetmaterial: BED_BLOCK
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ballons
+    x: 0.45658221365739005
+    y: 69.0
+    z: 51.38635638744433
+    pitch: 90.0
+    yaw: 178.4998779296875
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ballons
+    x: -50.56453475696221
+    y: 69.0
+    z: 0.26980067558831716
+    pitch: 90.0
+    yaw: 156.60009765625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ballons
+    x: 0.8151224243956936
+    y: 69.0
+    z: -50.54133427541976
+    pitch: 90.0
+    yaw: 251.7000732421875
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ballons
+    x: 51.33914506015476
+    y: 69.0
+    z: 0.687787607259615
+    pitch: 90.0
+    yaw: 355.949951171875
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ballons
+    x: 2.473232193692987
+    y: 64.0
+    z: 0.4892819905945859
+    pitch: 82.49999237060547
+    yaw: 90.7510986328125
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ballons
+    x: 0.45925594060467295
+    y: 64.0
+    z: 2.509839634835325
+    pitch: 90.0
+    yaw: 181.9510498046875
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ballons
+    x: -1.3656653653302566
+    y: 64.0
+    z: 0.5882571849659329
+    pitch: 90.0
+    yaw: 243.901123046875
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ballons
+    x: 0.6587782889828833
+    y: 64.0
+    z: -1.4732233231519143
+    pitch: 90.0
+    yaw: 240.60107421875
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Ballons
+    x: 0.5935602210887876
+    y: 72.20000004768372
+    z: 51.30358260992216
+    pitch: 73.50003051757812
+    yaw: 0.8999874591827393
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Ballons
+    x: 51.37633239626432
+    y: 72.20000004768372
+    z: 0.6999999880790735
+    pitch: 68.10004425048828
+    yaw: -189.59988403320312
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Ballons
+    x: 0.6894899898755695
+    y: 72.20000004768372
+    z: -50.30000001192092
+    pitch: 67.50005340576172
+    yaw: -224.70001220703125
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Ballons
+    x: -50.30000001192093
+    y: 72.20000004768372
+    z: 0.3000000119209233
+    pitch: 82.20001220703125
+    yaw: -333.749755859375
+teams:
+  Желтые:
+    ==: Team
+    bedfeed:
+      world: Ballons
+      x: -72.0
+      y: 69.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ballons
+      x: -64.43734884259436
+      y: 69.0
+      z: 0.42653646009098
+      pitch: 0.14998869597911835
+      yaw: 270.0001220703125
+    color: YELLOW
+    name: Желтые
+    maxplayers: 4
+    bedhead:
+      world: Ballons
+      x: -73.0
+      y: 69.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+  Зеленые:
+    ==: Team
+    bedfeed:
+      world: Ballons
+      x: 0.0
+      y: 69.0
+      z: -72.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ballons
+      x: 0.53927932880289
+      y: 69.0
+      z: -64.65946694077775
+      pitch: 0.300001323223114
+      yaw: 0.149871826171875
+    color: GREEN
+    name: Зеленые
+    maxplayers: 4
+    bedhead:
+      world: Ballons
+      x: 0.0
+      y: 69.0
+      z: -73.0
+      pitch: 0.0
+      yaw: 0.0
+  Красные:
+    ==: Team
+    bedfeed:
+      world: Ballons
+      x: 0.0
+      y: 69.0
+      z: 72.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ballons
+      x: 0.48511263399687393
+      y: 69.0
+      z: 65.79273513892265
+      pitch: -0.9000070691108704
+      yaw: 180.45001220703125
+    color: RED
+    name: Красные
+    maxplayers: 4
+    bedhead:
+      world: Ballons
+      x: 0.0
+      y: 69.0
+      z: 73.0
+      pitch: 0.0
+      yaw: 0.0
+  Синие:
+    ==: Team
+    bedfeed:
+      world: Ballons
+      x: 72.0
+      y: 69.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ballons
+      x: 65.79564582390589
+      y: 69.0
+      z: 0.5286301692305592
+      pitch: 0.7499873042106628
+      yaw: 90.14987182617188
+    color: BLUE
+    name: Синие
+    maxplayers: 4
+    bedhead:
+      world: Ballons
+      x: 73.0
+      y: 69.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0

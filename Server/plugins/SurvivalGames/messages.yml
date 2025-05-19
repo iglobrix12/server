@@ -1,0 +1,114 @@
+# Messages supports color codes!
+prefix: '&f[&a&lSurvivalGames&f]: &7'
+scoreboard-prefix: '&f   | &cSurvivalgames&f |   &f'
+scoreboard-stats: '&eСтатистика'
+scoreboard-kills: '&fУбийств: &c%kills%'
+scoreboard-money: '&fДенег: &c%money%'
+scoreboard-coins: '&fМонет: &c%coins%'
+scoreboard-wins: '&fПобед: &c%wins%'
+scoreboard-arena: '&eНа арене:'
+scoreboard-players: '&fИгроков: &c%players%'
+scoreboard-viewers: '&fЗрителей: &c%viewers%'
+Messages:
+  No-Permission: '&7Ащипька!!1! У вас нет прав'
+  No-Console: Только смертные могут использовать эти команды.
+  UnKnown-Command: Но ведь такой команды нету, друг.
+  Already-In-Game: Ты уже на арене, дружище.
+  No-Arena-Found-With-That-Name: Прости, но арены с таким названием нет.
+  Arena-Has-Less-Than-2-Minimum-Players: 'Минимум игроков на арене: 2.'
+  Game-Already-Started: Бойня там уже началась.
+  Arena-Is-Disabled: Эта арена отключена.
+  No-Spawn-Points: Маги не могут найти точки спавна.
+  No-DeathMatch-Location: Место дезматча на арене не установлено.
+  Not-Enough-Spawnpoints: Арена неиграбельна потому что не хаватает точек спауна. (должно быть = местам на арене, дурак)
+  Arena-Rollbacking: Отряд уборщиков очищает арену от крови. Подожди немного.
+  Arena-Full: Эта арена заполнена.
+  Player-Join: '&e%player% &7Присоединился к игре (&e%arenasize%&7/&e%arenamax%&7)!'
+  Players-Till-Start: '&e%arenasize% &7Игроков осталось до начала игры!'
+  Broadcast-Start: Бойня на арене &e%arena% &7начнется через &e%seconds% &7секунд!
+  Game-Starting: Игра начнётся через &e%seconds% &7секунд!
+  Not-In-Arena: Но ты не на арене, друг.
+  Player-Leave-In-Lobby: '&e%player% &7покинул игру! (&e%arenasize%&7/&e%arenamax%&7)!'
+  Player-Leave-In-Game: '&e%player% &7убит!'
+  Players-Remain: '&e%arenasize% &7игроков осталось'
+  Game-Cancelled-Not-Enough-Players: Бойня отменена потому что игроки трусишки и побоялись принять участие.
+  Player-Leave-Self-Message: Вы вышли с игры.
+  Kits-Disabled: Наборы отключены.
+  Cant-Buy-Or-SelectKit: Ты должен быть на арене, которая еще не начала свою игру.
+  No-Available-Kits: Ты искал, но не смог найти ни одного доступного тебе набора. Печаль.
+  Shop-Disabled: Магазин отключён.
+  Couldnt-Find-Player-Data: Дата отказалась давать данные об этом игроке. Возможно его нет в базе, м?
+  Game-Start: Бойня началась!
+  Recivied-Kit-Items: Ты получил предметы из набора &e%kit%!
+  Game-Ending: Бойня завершиться через &e%minutes% &7минут!
+  Chest-Refill-Warn: 'Сундуки будут заполнены через: &e%seconds% &7секунд!'
+  Chest-Refill: Сундуки были вновь заполнены магическими силами.
+  Grace-Ending: 'Режим бога закончится через: &e%seconds% &7секунд!'
+  Grace-End: Режим бога закончился. Теперь тебя смогут убить!
+  Game-Cancelled: Игра окончана. Время вышло.
+  DeathMatch-Starting: 'Дезматч начнётся через: &e%seconds% &7секунд!'
+  Game-Ending-In-DeathMatch: Бойня закончится через &e%seconds% &7секунд!
+  Winner-Grats: Поздравляем, ты победил. Печеньку хочешь? А ее не будет. АХАХАХАХАХА!
+  Vip-Player-Win-Earn-Tokens: Ты заработал &e%coins% &7Монет за победу (x2)!
+  Normal-Player-Win-Earn-Tokens: Ты заработал &e%coins% &7Монет за победу!
+  Player-Win-Arena-Broadcast: Победитель бойни на арене &e%arena% &7- &e%player%
+  Couldnt-Find-Nearby-Player-In-Radius: Простите, но я не могу найти игроков в радиусе &e%radius%&7!
+  Item-Disabled: Предмет отключен.
+  Kit-Selected: Ты получишь свой набор как только начнется бойня!
+  Couldnt-Find-Kit: Что-то не могу найти я этот набор...
+  Spectator-Teleport: Вы телепортировались к &e%player%
+  Spectator-Teleport-Deny: Нету такого игрока на этой арене. Может его уже съели каратели из Украины?
+  Not-Enough-Coins: Не достаточно монет!
+  Purchase-Item: Ты приобрел &e%item% &7x&e%amount% &7за &e%price% &7монет!
+  Blocked-Command: Вы не можете использовать команды в игре.
+  Vip-Kill-Player-Self-Message: Вы убили &e%target% &7и получили &e%coins% &7монет!
+  Normal-Kill-Player-Self-Message: Вы убили &e%target% &7и получили &e%coins% &7монет!
+  Player-Death-Announce: '&e%player% &7был убит игроком &e%killer%'
+  Player-Suicide: Ты совершил самоубийство.
+  Player-Death-Self-Message: Вас убил игрок &e%killer%
+  Player-Spectate: Ты теперь зритель на арене.
+  Carepackage-Dropping: Что-то летит! Примерное время до посадки - &e%seconds% &7секунд!
+  Carepackage-Drop: Это же набор помощи, беги за ним!
+  Carepackage-Cancel: Набор помощи отменен из-за нового ивента!
+  Carepackage-Denied: Должно быть &e%height% &7свободных блоков над локацией!
+  Sponsor-Self-Message: Ты спонсировал &e%player% &7предметом &e%item% &7x&e%amount% &7который стоил &e%cost% &7монет!
+  Sponsor-Target-Message: Ты был спонсирован &e%player% &7предметом &e%item% &7&e%amount%&7!
+  Coins-Restore: Твои печеньки восстановлены (&e%coins%&7)!
+  No-Available-Arenas: Не могу найти ни одну доступную арену!
+  Global-Lobby-Cant-Teleport-While-In-Game: Но ты же в игре, дружаня!
+  Global-Lobby-Not-Set: Основное лобби еще не выставлено!
+  Global-Lobby-Teleport: Ты был телепортирован в лобби!
+  Arena-Won-The-Vote: 'Карта &e%arena% &7победила в голосовании с количеством голосов:
+    &e%votes%&7.'
+  Time-Extend: Время было продлено на &e%time% &7секунд!
+  Vote-Locked: Голосование закрыто!
+  Player-Vote: Ты проголосовал за карту &e%map%
+  Time-Skip: Время было уменьшено до &e%seconds%&7 секунд!
+  Server-Restart: Сервер на котором ты был перезапускается!
+  Not-A-Tier-2-Chest: Couldnt find this tier 2 chest!
+  Not-A-Buyable-Kit: Этот набор нельзя купить!
+  Kit-Already-Unlocked: Но ты уже открыл этот набор, дружище!
+  Kit-Purchase: Ты приобрел набор &e%kitname% &7за &e%cost% &7монет!
+  Join-Deny: You must have nothing in hand to use the join signs!
+  Match-Reset-Kick-Message: You have been kicked due to a match reset
+Waiting-State: '&5Набор игроков'
+Starting-State: '&7Начало игры'
+INGAME-State: '&9Идёт игра.'
+Deathmatch-State: '&3Дезматч'
+Disabled-State: '&4Арена офлайн'
+Rollbacking-State: '&cROLLBACKING'
+Starting-Deathmatch-State: '&9Идёт игра.'
+Finishing-State: '&cКонец игры.'
+NotJoinable-State: '&2Перезагрузка сервера!'
+Unknown-State: '&0Unknown'
+Player-Death-By-Player:
+- '&e%player% &7был убит &e%killer%&7!'
+- '&e%player% &7был разрезан &e%killer%&7!'
+- '&e%player% &7и его оружие не смогло устоять перед &e%killer%&7!'
+- '&e%killer% &7подал руку помощи и убил &e%player%&7!'
+- '&e%killer% &7не смог удержаться и убил &e%player%&e7!'
+Player-Death-By-Falldamage: '&e%player% &7упал в пещеру к Смерти!'
+Player-Death-By-Lava: '&e%player% &7думал что умеет плавать в лаве, и умер!'
+Player-Death-By-Fire: '&e%player% &7сгорел до смерти!'
+Player-Death-By-Explosion: '&e%player% &7взорвался на миллион кусочков!'
+Player-Death-By-Unknown: '&e%player% &7был убит!'

@@ -1,0 +1,337 @@
+name: Red
+world: Red
+loc1:
+  world: Red
+  x: -117.7572705214224
+  y: 113.73108590356676
+  z: 110.29139026371641
+  pitch: 24.900054931640625
+  yaw: 229.50355529785156
+loc2:
+  world: Red
+  x: 111.04683922139661
+  y: 24.81790000444034
+  z: -109.00540670102569
+  pitch: -10.126935958862305
+  yaw: 44.23202133178711
+lobby:
+  world: lobby
+  x: 5008.5
+  y: 122.0
+  z: 5033.5
+  pitch: -4.350000858306885
+  yaw: -179.86407470703125
+minplayers: 4
+record: 66
+record-holders:
+- maxmine123
+- bodik1
+regionname: Red
+time: 1000
+targetmaterial: BED_BLOCK
+builder: GrandCraft
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Red
+    x: 53.5
+    y: 65.5
+    z: -44.5
+    pitch: 88.49999237060547
+    yaw: -271.1985778808594
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: 53.5
+    y: 65.5
+    z: -44.5
+    pitch: 88.49999237060547
+    yaw: -271.1985778808594
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: -44.5
+    y: 65.5
+    z: -52.5
+    pitch: 90.0
+    yaw: -196.19821166992188
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Red
+    x: -44.5
+    y: 65.5
+    z: -52.5
+    pitch: 90.0
+    yaw: -196.19821166992188
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Red
+    x: -52.5
+    y: 65.5
+    z: 45.5
+    pitch: 80.99998474121094
+    yaw: 77.55180358886719
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: -52.5
+    y: 65.5
+    z: 45.5
+    pitch: 80.99998474121094
+    yaw: 77.55180358886719
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: 45.5
+    y: 65.5
+    z: 53.5
+    pitch: 79.49996185302734
+    yaw: -3.598200559616089
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Red
+    x: 45.5
+    y: 65.5
+    z: 53.5
+    pitch: 79.49996185302734
+    yaw: -3.598200559616089
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Red
+    x: 53.5
+    y: 65.5
+    z: -44.5
+    pitch: 79.34994506835938
+    yaw: -80.6982650756836
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: 53.5
+    y: 65.5
+    z: -44.5
+    pitch: 79.19994354248047
+    yaw: -80.6982650756836
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: 0.5
+    y: 65.0
+    z: 54.5
+    pitch: 64.19993591308594
+    yaw: 353.251953125
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: 54.5
+    y: 65.0
+    z: 0.5
+    pitch: 69.14994812011719
+    yaw: 327.7523193359375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: 0.5
+    y: 65.0
+    z: -53.5
+    pitch: 88.49998474121094
+    yaw: 166.95236206054688
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Red
+    x: -53.5
+    y: 65.0
+    z: 0.5
+    pitch: 85.95000457763672
+    yaw: 120.60240936279297
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Red
+    x: -14.5
+    y: 73.0
+    z: 0.5
+    pitch: 77.85002899169922
+    yaw: 161.25257873535156
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Red
+    x: 0.5
+    y: 73.0
+    z: -14.5
+    pitch: 85.95008087158203
+    yaw: 164.7025146484375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Red
+    x: 15.5
+    y: 73.0
+    z: 0.5
+    pitch: 65.70006561279297
+    yaw: 317.4024353027344
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Red
+    x: 0.5
+    y: 73.0
+    z: 15.5
+    pitch: 78.15007781982422
+    yaw: 278.7026672363281
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Red
+    x: 0.5
+    y: 65.0
+    z: 14.5
+    pitch: 89.24999237060547
+    yaw: 0.00256884703412652
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Red
+    x: -13.5
+    y: 65.0
+    z: 0.5
+    pitch: 65.2500228881836
+    yaw: 82.50262451171875
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Red
+    x: 0.5
+    y: 65.0
+    z: -13.5
+    pitch: 75.15000915527344
+    yaw: 216.15261840820312
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Red
+    x: 14.5
+    y: 65.0
+    z: 0.5
+    pitch: 82.80003356933594
+    yaw: 275.55279541015625
+teams:
+  Зеленый:
+    ==: Team
+    bedfeed:
+      world: Red
+      x: -42.0
+      y: 66.0
+      z: 40.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Red
+      x: -47.5
+      y: 66.0
+      z: 47.5
+      pitch: -2.100008487701416
+      yaw: -134.5498046875
+    color: GREEN
+    name: Зеленый
+    maxplayers: 4
+    bedhead:
+      world: Red
+      x: -42.0
+      y: 66.0
+      z: 41.0
+      pitch: 0.0
+      yaw: 0.0
+  Желтый:
+    ==: Team
+    bedfeed:
+      world: Red
+      x: -40.0
+      y: 66.0
+      z: -42.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Red
+      x: -46.5
+      y: 66.0
+      z: -47.5
+      pitch: -1.6499921083450317
+      yaw: -44.54978561401367
+    color: YELLOW
+    name: Желтый
+    maxplayers: 4
+    bedhead:
+      world: Red
+      x: -41.0
+      y: 66.0
+      z: -42.0
+      pitch: 0.0
+      yaw: 0.0
+  Красный:
+    ==: Team
+    bedfeed:
+      world: Red
+      x: 40.0
+      y: 66.0
+      z: 42.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Red
+      x: 47.5
+      y: 66.0
+      z: 48.5
+      pitch: -1.8000166416168213
+      yaw: -224.70004272460938
+    color: RED
+    name: Красный
+    maxplayers: 4
+    bedhead:
+      world: Red
+      x: 41.0
+      y: 66.0
+      z: 42.0
+      pitch: 0.0
+      yaw: 0.0
+  Синий:
+    ==: Team
+    bedfeed:
+      world: Red
+      x: 42.0
+      y: 66.0
+      z: -40.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Red
+      x: 48.5
+      y: 66.0
+      z: -46.5
+      pitch: -2.099902629852295
+      yaw: -314.6988220214844
+    color: BLUE
+    name: Синий
+    maxplayers: 4
+    bedhead:
+      world: Red
+      x: 42.0
+      y: 66.0
+      z: -41.0
+      pitch: 0.0
+      yaw: 0.0

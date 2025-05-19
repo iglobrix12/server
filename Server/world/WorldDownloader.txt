@@ -1,0 +1,4 @@
+#
+#Mon May 21 02:27:48 CEST 2018
+LinkedWorlds=
+ServerName=bichland.ru

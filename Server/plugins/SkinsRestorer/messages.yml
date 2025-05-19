@@ -1,0 +1,48 @@
+SR_LINE: '&7&m----------------------------------------'
+PLAYER_HAS_NO_PERMISSION: '&e&lСКИНЫ &8| &4Error&8: &cYou don''t have permission
+  to do this.'
+HELP_PLAYER: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver%
+     &2/skin set <skinname> &7-&f Поменять скин
+      &2/skin <skinname> &7-&f скороченая версия "/skin set".
+      &2/skin clear &7-&f Убрать скин
+HELP_SR: '    &2/sr &7- &fDisplay admin commands.'
+NOT_PREMIUM: '&e&lСКИНЫ &8| &4Error&8: &cПремиум-игрок с таким именем не существует.'
+SKIN_COOLDOWN_NEW: '&e&lСКИНЫ &8| &4Error&8: &cВы можете изменить свой скин снова
+  через &e%s &cсекунд(у)'
+SKIN_CHANGE_SUCCESS: '&e&lСКИНЫ &8| &fВаш скин был изменен.'
+SKIN_CLEAR_SUCCESS: '&e&lСКИНЫ &8| &fВаш скин был очищен.'
+SKIN_CLEAR_ISSUER: '&e&lСКИНЫ &8| &fСкин очищен для игрока %player.'
+HELP_ADMIN: |2-
+    &2&lSkinsRestorer &7- &f&lv%ver% &c&lAdmin
+
+     &2/sr config &7- &fhelp page for usefull in game config settings
+      &2/sr set <player> <skin name> &7- &fChanges the skin of a player..
+      &2/sr drop <player> &7- &fDrops player skin data.
+      &2/sr clear <player> &7- &fClears player data.
+      &2/sr reload &7- &fReloads the config and locale
+      &2/sr props [player] &7- &fDisplays the players actual skin as properties
+ADMIN_SET_SKIN: '&c&lСКИНЫ &8| &2You set %player''s skin.'
+INVALID_PLAYER: '&c&lСКИНЫ &8| &4Error&8: &c%player is not a valid username.'
+NOT_ONLINE: '&c&lСКИНЫ &8| &4Error&8: &cPlayer is not online!'
+SKIN_DATA_DROPPED: '&c&lСКИНЫ &8| &2Skin data for player %player dropped.'
+RELOAD: '&c&lСКИНЫ &8| &2Config и Locale были перезагружены!'
+SKIN_DISABLED: '&c&lСКИНЫ &8| &4Error&8: &cThis skin is disabled by an administrator.'
+ALT_API_FAILED: '&c&lСКИНЫ &8| &4Error&8: &cSkin Data API is overloaded, please
+  try again later!'
+NO_SKIN_DATA: '&c&lСКИНЫ &8| &4Error&8: &cNo skin data acquired! Does this
+  player have a skin?'
+STATUS_OK: '&c&lСКИНЫ &8| &2Mojang API connection successful!'
+GENERIC_ERROR: '&c&lСКИНЫ &8| &4Error&8: &cAn error occurred while requesting
+  skin data, please try again later!'
+WAIT_A_MINUTE: '&c&lСКИНЫ &8| &4Error&8: &cPlease wait a minute before requesting
+  that skin again. (Rate Limited)'
+NOT_PLAYER: '&c&lСКИНЫ &8| &4Error&8: &cYou need to be a player!'
+OUTDATED: "&c&lСКИНЫ &8| &4You are running an outdated version of SkinsRestorer!\n\
+  &cPlease update to the latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+MENU_OPEN: '&2Opening the skins menu...'
+PLAYERS_ONLY: '&4These commands are only for players!'
+NEXT_PAGE: '&a&l»&7 Next Page&a&l »'
+PREVIOUS_PAGE: '&e&l»&7 Previous Page&e&l «'
+REMOVE_SKIN: '&c&l»&7 Remove Skin&c&l »'
+SELECT_SKIN: '&2Click to select this skin'

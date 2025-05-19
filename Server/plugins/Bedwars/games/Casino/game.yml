@@ -1,0 +1,245 @@
+name: Casino
+world: Casino
+loc1:
+  world: Casino
+  x: 111.18109894369351
+  y: 142.02197507728448
+  z: 137.29754619759927
+  pitch: 27.454418182373047
+  yaw: -213.25657653808594
+loc2:
+  world: Casino
+  x: -110.82787291495305
+  y: 37.07345443016192
+  z: -120.44736731888946
+  pitch: -6.996772766113281
+  yaw: -43.05080795288086
+lobby:
+  world: lobby
+  x: 5008.5
+  y: 122.0
+  z: 5033.5
+  pitch: -4.350000858306885
+  yaw: -179.86407470703125
+minplayers: 4
+record: 83
+record-holders:
+- _DoubelKiller_
+regionname: Casino
+time: 1000
+targetmaterial: BED_BLOCK
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Casino
+    x: -68.64710968417833
+    y: 90.0
+    z: -5.699999988079071
+    pitch: 90.0
+    yaw: 95.15170288085938
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Casino
+    x: -68.5450014550584
+    y: 90.0
+    z: 6.699999988079072
+    pitch: 90.0
+    yaw: 1.6413229703903198
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Casino
+    x: 0.5
+    y: 90.0
+    z: -72.5
+    pitch: 89.794921875
+    yaw: -263.0993957519531
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Casino
+    x: 12.699999988079071
+    y: 90.0
+    z: -72.40500033114971
+    pitch: 86.71888732910156
+    yaw: -77.30897521972656
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Casino
+    x: 79.51021627726105
+    y: 90.0
+    z: 8.699999988079071
+    pitch: 86.30884552001953
+    yaw: 1.5447503328323364
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Casino
+    x: 79.6797563064939
+    y: 90.0
+    z: -3.6999999880790693
+    pitch: 90.0
+    yaw: -164.96946716308594
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Casino
+    x: -1.6999999880790715
+    y: 90.0
+    z: 75.4815314575807
+    pitch: 89.79493713378906
+    yaw: -251.50672912597656
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Casino
+    x: 10.699999988079073
+    y: 90.0
+    z: 75.37839666239289
+    pitch: 89.58987426757812
+    yaw: -84.67965698242188
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Casino
+    x: 2.5
+    y: 90.0
+    z: 7.5
+    pitch: 85.48847961425781
+    yaw: -247.09271240234375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Casino
+    x: 3.5
+    y: 90.0
+    z: -1.5
+    pitch: 80.97694396972656
+    yaw: -152.9671173095703
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Casino
+    x: 9.5
+    y: 90.0
+    z: 0.5
+    pitch: 64.98179626464844
+    yaw: -50.22880172729492
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Casino
+    x: 15.5
+    y: 90.0
+    z: -0.5
+    pitch: 86.71878051757812
+    yaw: -174.90902709960938
+teams:
+  Желтые:
+    ==: Team
+    bedfeed:
+      world: Casino
+      x: -64.0
+      y: 95.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Casino
+      x: -58.5
+      y: 90.0
+      z: 0.5
+      pitch: -1.664703130722046
+      yaw: 268.8422546386719
+    color: YELLOW
+    name: Желтые
+    maxplayers: 4
+    bedhead:
+      world: Casino
+      x: -65.0
+      y: 95.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+  Зеленые:
+    ==: Team
+    bedfeed:
+      world: Casino
+      x: 74.0
+      y: 95.0
+      z: 2.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Casino
+      x: 69.5
+      y: 90.0
+      z: 2.5
+      pitch: -1.64058256149292
+      yaw: 89.92720031738281
+    color: GREEN
+    name: Зеленые
+    maxplayers: 4
+    bedhead:
+      world: Casino
+      x: 75.0
+      y: 95.0
+      z: 2.0
+      pitch: 0.0
+      yaw: 0.0
+  Красные:
+    ==: Team
+    bedfeed:
+      world: Casino
+      x: 4.0
+      y: 95.0
+      z: 70.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Casino
+      x: 4.5
+      y: 90.0
+      z: 65.5
+      pitch: -1.435631513595581
+      yaw: 180.45843505859375
+    color: RED
+    name: Красные
+    maxplayers: 4
+    bedhead:
+      world: Casino
+      x: 4.0
+      y: 95.0
+      z: 71.0
+      pitch: 0.0
+      yaw: 0.0
+  Синее:
+    ==: Team
+    bedfeed:
+      world: Casino
+      x: 6.0
+      y: 95.0
+      z: -68.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Casino
+      x: 6.5
+      y: 90.0
+      z: -62.5
+      pitch: -1.435441493988037
+      yaw: -1.1222302913665771
+    color: BLUE
+    name: Синее
+    maxplayers: 4
+    bedhead:
+      world: Casino
+      x: 6.0
+      y: 95.0
+      z: -69.0
+      pitch: 0.0
+      yaw: 0.0

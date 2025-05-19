@@ -1,0 +1,35 @@
+# Usage: ItemID : Amount : Price
+# You can also control the durability of the item by doing this: (ItemID:Durability : Amount : Price)
+# You can add unlimited enchants by doing this: (ItemID : Amount : Price : enchant:enchantment:level : enchant:enchantment:level)
+# You can also set the name or lore like this: (ItemID : Amount : Price : name:name : lore:lore)
+# Example (267 : 1 : 100 : enchant:DAMAGE_ALL:1 : enchant:FIRE_ASPECT:2) this will create a iron sword for 100 coins with the sharpness and fireaspect enchants
+# For a list of Enchants that you can use, click this link!  http://jd.bukkit.org/rb/apidocs/org/bukkit/enchantments/Enchantment.html
+Items:
+- '267 : 1 : 200 : enchant:DAMAGE_ALL:1'
+- '272:20 : 1 : 50'
+- '261 : 1 : 20'
+- '262 : 10 : 10'
+- '46 : 2 : 30'
+- '322 : 1 : 60'
+- '297 : 5 : 10'
+- '307 : 1 : 300'
+- '368 : 1 : 50'
+- '280 : 1 : 10'
+- '264 : 1 : 100'
+- '265 : 1 : 60'
+- '266 : 1 : 50'
+- '279 : 1 : 350'
+- '276 : 1 : 400'
+- '364 : 3 : 30'
+- '287 : 5 : 20'
+- '288 : 1 : 5'
+- '322:1 : 1 : 600'
+- '373:16421 : 1 : 110'
+- '373:16420 : 1 : 140'
+- '373:16425 : 1 : 130'
+- '373:16428 : 1 : 150'
+- '373:16418 : 1 : 100'
+- '373:16458 : 1 : 90'
+- '373:16485 : 1 : 100'
+- '373:16419 : 1 : 90'
+- '384 : 8 : 170'

@@ -1,0 +1,12 @@
+#.
+#.             ColoredTags by Filoghost
+#.
+#. This is the main configuration of the plugin.
+#. Website: http://dev.bukkit.org/bukkit-plugins/colored-tags
+#.
+change-tab-names: true
+update-notification: false
+fix-death-messages: false
+auto-refresh:
+  enabled: false
+  seconds: 0

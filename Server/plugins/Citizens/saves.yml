@@ -1,0 +1,176 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+last-created-npc-id: 4
+npc:
+  '4':
+    name: ''
+    uuid: 1954dd97-288b-4f38-bab2-c60de7b610fd
+    traits:
+      location:
+        world: world
+        x: '138.5'
+        y: '115.0'
+        z: '-83.5'
+        yaw: '-85.967529296875'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      inventory: {}
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: _DoubelKiller_
+        uuid: 79dfa2c5-ca77-3159-94d6-251d33aeddb3
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: gravity,equipment,mounttrait,location,owner,inventory,lookclose,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      nameplate-visible: 'false'
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzE5NDc2MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWNjNmU5ZTUyODM0OTNjODYyZGU3NzRlMWI5MjU1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJbUZpbmVseSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YzcyN2M0ZGI4YjQzNGNiMTFmOTkyOTg4MmUwODAyNjVjMTcxMWE4ZjlmMzFmYjg3Y2MxYjc4NzBlZmFiMDkyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: imfinely
+      cached-skin-uuid: 4ecc6e9e-5283-493c-862d-e774e1b92554
+      player-skin-name: imfinely
+      player-skin-signature: hUFeyCWfKOxuvXFVH5aDVo7XX2gY4xWuupdjuI5gofINiPQb4f896Zbt34+lA0K7acYfGehjabYapZGE6ZmIAVpspHwh/TgeA0Ig+gW3AS8bMSFlPOcTb05V5godDDwgosfnX0Tpxnl6Oz5fgAL6A1oVP2m4/j2gOCChO2FuDoU0eE9WT2kOAXf7NBgOv1Oki0k4HDAqYTg+aLlkT+jCLGGKbVn4w1vaqzoBaEYUf39MGXIEaH64wANaL5SCmWfnEq2STjzkg67FasV4jbT5O1ehgDin1kOTMEuLXWYydJMcHxk/BefKqMLJNMi9ty/+MgFwrv1mKfHtMwGh3td8AbvUg/1RfYLAAwmuAiXPgRXCScSHwj0IOpGx8tPrDQgrSgejErhHhhGE6Vnj+Gkc4EaEZZAXptNHo8oNbQPSmtAdw9RhkkwOq/ynQS5hKgRoNSjWjdXDG+wsp/H+xCdu/hWixkEE7JwDxdimlIlGPXBQakp/dBajbV4n/EYGjCGHjnwxGmMf3vuOkI6KRnRjNrt7McLILK+clp3FYFQR1XtUv+mViCz7Igr0j9uhzy2ZHaaN3EZerttm6lq7dW8OJ+sl6F6uaOmu0kBjorEufwHpMG8BV+vMHLMFwJxEIi4pvilYh5g+jBHeRuxfGe6l91kkNAS3v2BtimSkEVUISbg=
+  '3':
+    name: ''
+    uuid: ef0f99c9-1193-4320-b156-1a99242f6e77
+    traits:
+      location:
+        world: world
+        x: '143.5'
+        y: '115.0'
+        z: '-80.5'
+        yaw: '-106.09547424316406'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      inventory: {}
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: _DoubelKiller_
+        uuid: 79dfa2c5-ca77-3159-94d6-251d33aeddb3
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: gravity,equipment,mounttrait,location,owner,inventory,lookclose,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzE5NDc1MTIxNiwKICAicHJvZmlsZUlkIiA6ICIzYjYyMzczMjQzMjQ0ZTI1YjI2ZjI1NmI2ZTJhYjg0MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcmFuZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMGEwZWQ4MGYxMTVlNTFkY2I1ZDQ1MTEwZjRkYzMyMWYxNTI1ZDAzOGVlZGZjNzY0YzZiNDEyMzlmMmU2YTU1IgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: grand
+      cached-skin-uuid: 3b623732-4324-4e25-b26f-256b6e2ab843
+      player-skin-name: grand
+      player-skin-signature: LtsFpGvI9qHTUPB4Qn7khehUnxsU6AfNAbRPn5LZi6IYCDPECG1qC3ALxT7+pqvVdNCUSkLFOUAsoas9XucrsEcoGhf7mLQE1PLFIyYioJNkGB3afu6n7sX6+GcczdY6i1twDHiZ6pHSI97OPhrZKtwhps8C6lc/5M6Pm1pnegxOsOy31r7C4dkflLyRsBmovxrBPxnJwuEaXJZ1sCElI9B3//mzxFM+FLLClum5G9y70f163wldYPaesI5raln8bnXvl96VdPLOqPxjfdtkNII3qZIXt7traWrGdJb4BSGKDMpDPzwiSVmC2YwUxXCFnhgtgpDgH4l+FpzWQ17MvyTmeIPfz1H27URt9D+ZOyu9Qxb7PUxWQkA33hPaM5/QcSdI+OwXgSPd8IYYyAEevNPwr0Uthd0PvXCxkpLH+PdfpqlIEg+wRlK5PS6FEjDMDPCW0hmgYOepQbYW/8dCp3/ZNirSKPPmlrrTSiPih8eEPyo9J31LAusViNXpt+v3zgv7Yzu+yKOcklIG+qMvnL7UAEMSe0cCi4SDBlFN4plvLGXsMa6qO/bg8gdez1KciB86xuksu264dhLPwrDBudnjDRoEz6C/Vlpio1uO4yoKgxj55Ki22AJcXKWZyg+RFwrY67GNPMofXxEDtkoLVL9406R8J2B/2YRHOeGrdKg=
+  '2':
+    name: ''
+    uuid: 0e702b08-5806-4c49-b651-2070a508ef12
+    traits:
+      location:
+        world: world
+        x: '148.5'
+        y: '115.0'
+        z: '-79.5'
+        yaw: '-127.2227783203125'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      inventory: {}
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: _DoubelKiller_
+        uuid: 79dfa2c5-ca77-3159-94d6-251d33aeddb3
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: gravity,equipment,mounttrait,owner,inventory,location,lookclose,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzE5NDc0MjMzNiwKICAicHJvZmlsZUlkIiA6ICIwNmZiNmFlMjBkYjM0MmZmYjljODg2Yzc5ZTkwNjViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RTa2lwZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkyMjI0ZTdmMGZjNjZhNTczZGQxMWVhMWQzMDhlMjkyY2M0NDk5ODZhOTc3Y2M5ZWU2NzhjNjljNGFhMDFkMiIKICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: notskiper
+      cached-skin-uuid: 06fb6ae2-0db3-42ff-b9c8-86c79e9065bb
+      player-skin-name: notskiper
+      player-skin-signature: xkElK195UhzEnR6124RQ6QChzGovF94rfW8gtayqQQeLsMYxBKUdBxjPDPUKH1MLYep7X0AO5UAE0UOgCIwtUAur5/4TdUra+5HIZ4exEsWQI7B3WjVxc6IeBnSI232KUkro0J5mG5P7ASHd6r6P42YTEk3WVpMySF/o/+Hs8bu4mX1HjaH73PjI2q1GVspsE4uaVSZRzXM5UOogHqw0lRZllputy7/hzoi81S5Q6Nw6Wb2uVDDIqh0F+C2YECi9U61kvqTzS+kBkopPJdEc+0EP4a6vOFg0qeaxFD7ZV/Kfhip+BToXs7wPKWPguYTJqcnjaEsHaJFnPdOaqN+VBz454IX3+Tbk81PVfe/5bwLEnkLuEhZVbmRphy4lHKBEvBt9nSBJuJg9X9j4eh/tliH6FSem+GHnT5DxhiiDUGv6SNeB2ChFojJHmn6zFdg3VD5DBdwbKISAxLrPP3++a2zxbINZaejdmXTypWoAXkkqhakRkL6P4zdUsnUYlib+DlP05XWR0XwrtH6UM0O6nDKDllUhhFNXtqsmGo3it1uURWNIWqhuG7lDzB+WqRiSoTAG8v8Es478vxUBaR0gCxtPhseH8VKBOaJaGnKP/oeB1G5w6pfgqZoXBYsjG7lQ69t7Cbb4N4SUZPyT4iI6uDZ1AU4FPl/V/DAuMJcJ6Xs=
+  '1':
+    name: ''
+    uuid: 3c673064-0073-43b3-9906-f89ce32ae37a
+    traits:
+      location:
+        world: world
+        x: '153.5'
+        y: '115.0'
+        z: '-80.5'
+        yaw: '-147.63771057128906'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      inventory: {}
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: _DoubelKiller_
+        uuid: 79dfa2c5-ca77-3159-94d6-251d33aeddb3
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: gravity,equipment,mounttrait,inventory,location,owner,lookclose,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzE5NDczNTE1MCwKICAicHJvZmlsZUlkIiA6ICI1ODMzN2ZiOTE5YTE0NDE4YjAwNzI1YWFlNTA5NTBmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZW1vbGRuZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYwOTY1NjU3OGY3ZTZmOWEyNDI1YzJmNTQ0MTdmMGUwMjAwYmZmOWRmOTJkNTY3NmNmM2Y1NDE1MDEyYjQ4ZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      cached-skin-uuid-name: demoldner
+      cached-skin-uuid: 58337fb9-19a1-4418-b007-25aae50950f8
+      player-skin-name: demoldner
+      player-skin-signature: Jhb5r/31W+dBluE1zcnsBKi/JYZSr4Ucf14H/tjT2AdhCbL8k50CdaUYvuuG3d/tsUfTEl/8ao936JGhQFKalXPyefW0mTT5J1mWJ58/Y0c5UDD5F/OWrrgiSxKmrCnaE9ewsLIw2YoTYHQKEiLIv9UmaSYijDOffrO6Kx0FkPt3ySHuWsAl5iwHlfJYs89NjHEXZk7Xk4ys69ejzoPdhK5BdQFJ0J7L74QbXYcWEJpKnXN1SRdTO/bo6YFLUEAtNye3u86d1XmRHxHan57GFxMTnCR6OL7oMtx//X0z0HTTYQ9xaOrYz06dLN4KVGSRcPev9UMn04/1tT3csuLCjf3fSjV5gGkUBk6zLOSrSiWX39Q12msYbWYOihqhm2b4wayc7Kez5j6d/Zv8HjaK+NmF2t+fITa9/xqK46tVtcCmGAwm7XVPwEaH36n+y4wzqoFywYzId34z4RRuk5gY9GgM+XHSCuP+yVYvDfhRrAx+EPi9WwvzIj/p/sEUDlkn+i6otA0nnpUye70Vk0Uwy0YK9JgBfIYsTUUpCbXWqiy699sMuqnBYSeYlU6YsQi3E3+Hk62av2xGhc8i9SX99jmX/0q8DANuy07ZPdYAVcau8DJQpuY/fchD09VlwW8iTepK1eVI5QNZ5MiJp/g35yLAeKS3UyY+kmV4ro7Bgl4=
+  '0':
+    name: ''
+    uuid: 114983d2-8d6f-4ee2-a45d-6ee3bff67af0
+    traits:
+      location:
+        world: world
+        x: '158.5'
+        y: '115.0'
+        z: '-83.5'
+        yaw: '180.2301483154297'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      inventory: {}
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: _DoubelKiller_
+        uuid: 79dfa2c5-ca77-3159-94d6-251d33aeddb3
+    traitnames: gravity,equipment,mounttrait,owner,inventory,location,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYwNzE5NDcyODExNSwKICAicHJvZmlsZUlkIiA6ICIwMzAyMjA4ZjU2YzY0MDg0YTAxMjA2MThkZTIyYzQ3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJieWxuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y0NjQxNTQ1ZTRlYTdkNTU3MjMwNDU0ZWFkZjUxOGM5ZDUwYTM3YTMyNTk2Mjc0ZDZiMTQ1ZTgzNmE3NzkyOTAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: byln
+      cached-skin-uuid: 0302208f-56c6-4084-a012-0618de22c47f
+      player-skin-name: byln
+      player-skin-signature: wVABNeOc/PH4gvaCMxPegBytqW2ODyLADvpzNd1871ewbBKGqjk7XqpA/wYzGlfeKZ3Da45pHgVpUFOxNhXYHi2Udm6Rr1o11trb7SoYL4ZLZu6Wnf7F7hIVUqeDK9bMkh/WWrj8yGVkrc1kApNVYfrlE0y6D3WHjKvYZHkX/Z3IreBY+sk6BrRAficQVDx7EcYkpGSNal3uY08YUbyYIcpEqo4qXhDLzJzK9y2Qv4FMxYKeGLB3YNFq55McLQlWfhm7LNoVc4L6vzLZ4ROFdBHSgrYDoyNLlO/hLTxPZbagF7UXuTgl8VHCJa1gC5sW9YoaWlbawcGenAFkJ0Tt2i7OMG8rxH9Ws8YwVuRB9RUq1xggsF1qI0M+xF326Hz7xx7O8zQiagp+1mvXKgac0SJH2KnT0z4p8FCvM3ydIVVQGmltMNz61u1Y9FzKhaueVISSqMdS+cS0/EV5AHuISyZtgmbl8RmnotFJHs8eTdm3L/3PVbcBZtLM99DxpqzIm3X30xRP09RODyrXRC2M3mWuJEjPURGcQKmoOOXFkW0GLPs3/l5m1u+rhuLiqfajYxYHX4QDK2rhvysn4cRMHmAecqWrm1JJD3Ea0nIoIyxIjHtoCVOnjUFZi+IZnM/4nhvScmiJtczuylQ2FEUlyGXvhuD32y+zsqOpyMptvKs=

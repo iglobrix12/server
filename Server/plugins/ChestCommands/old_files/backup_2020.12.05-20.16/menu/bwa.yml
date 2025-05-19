@@ -1,0 +1,194 @@
+menu-settings:
+  name: Выбор арен - BedWars
+  rows: 6
+  command: bwa
+  open-action: ''
+'1':
+  ID: '159:5'
+  COMMAND: 'bw join Ballons'
+  NAME: §aBallons
+  LORE:
+  - ''
+  - '&eНазвание карты: §aBallons'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'2':
+  ID: '159:5'
+  COMMAND: 'bw join Casino'
+  NAME: §aCasino
+  LORE:
+  - ''
+  - '&eНазвание карты: §aCasino'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'3':
+  ID: '159:5'
+  COMMAND: 'bw join CubeWorld'
+  NAME: §aCubeWorld
+  LORE:
+  - ''
+  - '&eНазвание карты: §aCubeWorld'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'4':
+  ID: '159:5'
+  COMMAND: 'bw join Ghost'
+  NAME: §aGhost
+  LORE:
+  - ''
+  - '&eНазвание карты: §aGhost'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'5':
+  ID: '159:5'
+  COMMAND: 'bw join Green'
+  NAME: §aGreen
+  LORE:
+  - ''
+  - '&eНазвание карты: §aGreen'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'6':
+  ID: '159:5'
+  COMMAND: 'bw join Last'
+  NAME: §aLast
+  LORE:
+  - ''
+  - '&eНазвание карты: §aLast'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'7':
+  ID: '159:5'
+  COMMAND: 'bw join Overland'
+  NAME: §aOverland
+  LORE:
+  - ''
+  - '&eНазвание карты: §aOverland'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'8':
+  ID: '159:5'
+  COMMAND: 'bw join Red'
+  NAME: §aRed
+  LORE:
+  - ''
+  - '&eНазвание карты: §aRed'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'9':
+  ID: '159:5'
+  COMMAND: 'bw join Royal'
+  NAME: §aRoyal
+  LORE:
+  - ''
+  - '&eНазвание карты: §aRoyal'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'10':
+  ID: '159:5'
+  COMMAND: 'bw join SteamPunk'
+  NAME: §aSteamPunk
+  LORE:
+  - ''
+  - '&eНазвание карты: §aSteamPunk'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'11':
+  ID: '159:5'
+  COMMAND: 'bw join Tee'
+  NAME: §aTees
+  LORE:
+  - ''
+  - '&eНазвание карты: §aTees'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+'12':
+  ID: '159:5'
+  COMMAND: 'bw join West'
+  NAME: §aWest
+  LORE:
+  - ''
+  - '&eНазвание карты: §aWest'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+'13':
+  ID: '159:5'
+  COMMAND: 'bw join White'
+  NAME: §aWhite
+  LORE:
+  - ''
+  - '&eНазвание карты: §aWhite'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
+'14':
+  ID: '159:5'
+  COMMAND: 'bw join WindMill'
+  NAME: §aWindMill
+  LORE:
+  - ''
+  - '&eНазвание карты: §aWindMill'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+'15':
+  ID: '159:5'
+  COMMAND: 'bw join Zondo'
+  NAME: §aZondo
+  LORE:
+  - ''
+  - '&eНазвание карты: §aZondo'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 7
+  POSITION-Y: 4
+  KEEP-OPEN: true
+'16':
+  ID: 'barrier'
+  COMMAND: 'bw'
+  NAME: §bМеню выбора
+  LORE:
+  - §7Вернуться в меню выбора
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true

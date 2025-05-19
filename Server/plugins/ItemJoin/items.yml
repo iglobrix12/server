@@ -1,0 +1,53 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explaination; https://www.spigotmc.org/wiki/itemjoin/
+items-Version: 6
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  1:
+    id: COMPASS
+    slot: 0
+    name: '&eВыбор режима'
+    lore:
+    - '&7Универсальный прибор'
+    - '&7для передвижения по'
+    - '&7всем режимам'
+    commands:
+      right-click:
+      - 'menu'
+    commands-type: interact, inventory
+    itemflags: hide-attributes, inventory-modify, placement, animate, death-drops, self-drops
+    triggers: join, respawn
+    permission-node: itemjoin.user
+    enabled-worlds: world
+  2:
+    id: SKULL_ITEM:3
+    slot: 1
+    name: '&eПрофиль игрока &7%player%'
+    skull-owner: '%player%'
+    lore:
+      - '&7Полезная информация'
+    commands:
+      right-click:
+      - 'stat'
+    commands-type: interact, inventory
+    itemflags: hide-attributes, inventory-modify, placement, animate, death-drops, self-drops
+    triggers: join, respawn
+    enabled-worlds: world
+  3:
+    id: DIAMOND
+    slot: 8
+    name: '&eПривилегии'
+    lore:
+    - '&7Подробная информация о возможностях'
+    - '&7привилегий и их покупки'
+    commands:
+      right-click:
+      - 'donate'
+    commands-type: interact, inventory
+    itemflags: hide-attributes, inventory-modify, placement, animate, death-drops, self-drops
+    triggers: join, respawn
+    permission-node: itemjoin.user
+    enabled-worlds: world

@@ -1,0 +1,329 @@
+name: Royal
+world: Royal
+loc1:
+  world: Royal
+  x: 111.57697626505698
+  y: 115.34613143085429
+  z: -110.30685860829202
+  pitch: 22.915306091308594
+  yaw: 50.004188537597656
+loc2:
+  world: Royal
+  x: -106.77495866836381
+  y: -44.7693836948684
+  z: 103.791273922902
+  pitch: 29.96310806274414
+  yaw: 223.8500518798828
+lobby:
+  world: lobby
+  x: 5008.5
+  y: 122.0
+  z: 5033.5
+  pitch: -4.350000858306885
+  yaw: -179.86407470703125
+minplayers: 4
+record: 162
+record-holders:
+- Madi1234
+- Tim_Grif
+- Hacker_22344
+- loby
+regionname: Royal
+time: 1000
+targetmaterial: BED_BLOCK
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Royal
+    x: 71.5
+    y: 71.0
+    z: -5.5
+    pitch: 86.86764526367188
+    yaw: 253.7861328125
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Royal
+    x: 68.5
+    y: 71.0
+    z: 5.5
+    pitch: 87.6507568359375
+    yaw: 27.95551109313965
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Royal
+    x: 54.30000001192093
+    y: 80.20000004768372
+    z: -12.633791524159307
+    pitch: -69.48906707763672
+    yaw: 98.43336486816406
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Royal
+    x: 22.483400639122465
+    y: 75.20000004768372
+    z: -20.30000001192093
+    pitch: -90.0
+    yaw: -115.87196350097656
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Royal
+    x: 21.734629045160588
+    y: 75.20000004768372
+    z: 22.408271297574498
+    pitch: -78.77568054199219
+    yaw: -293.6330261230469
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Royal
+    x: 13.699999988079075
+    y: 80.20000004768372
+    z: 52.69999998807907
+    pitch: -77.47048950195312
+    yaw: -149.76556396484375
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Royal
+    x: 6.5
+    y: 71.0
+    z: 69.5
+    pitch: 80.1913833618164
+    yaw: -88.6441650390625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Royal
+    x: -4.5
+    y: 71.0
+    z: 66.5
+    pitch: 86.60662841796875
+    yaw: -234.82073974609375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Royal
+    x: -21.65333964588308
+    y: 75.20000004768372
+    z: 21.516541190957525
+    pitch: -90.0
+    yaw: -180.0043487548828
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Royal
+    x: -51.60555091021665
+    y: 80.20000004768372
+    z: 13.699999988079071
+    pitch: -76.16543579101562
+    yaw: -0.897979736328125
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Royal
+    x: -51.60555091021665
+    y: 80.20000004768372
+    z: 13.699999988079071
+    pitch: -76.16543579101562
+    yaw: -0.897979736328125
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Royal
+    x: -68.5
+    y: 71.0
+    z: 6.5
+    pitch: 89.47793579101562
+    yaw: -319.91619873046875
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Royal
+    x: -65.5
+    y: 71.0
+    z: -4.5
+    pitch: 90.0
+    yaw: -75.59217071533203
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Royal
+    x: -20.30000001192093
+    y: 75.20000004768372
+    z: -21.7946597375065
+    pitch: -80.97440338134766
+    yaw: -81.33480834960938
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Royal
+    x: -12.30173792489907
+    y: 80.20000004768372
+    z: -51.30000001192093
+    pitch: -70.27216339111328
+    yaw: -49.449310302734375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Royal
+    x: 5.5
+    y: 71.0
+    z: -65.5
+    pitch: 90.0
+    yaw: -103.48219299316406
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Royal
+    x: -5.5
+    y: 71.0
+    z: -68.5
+    pitch: 88.69480895996094
+    yaw: -251.22509765625
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Royal
+    x: 0.5
+    y: 72.0
+    z: -5.5
+    pitch: 72.24992370605469
+    yaw: 3.8012313842773438
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Royal
+    x: -5.573755614437804
+    y: 72.0
+    z: 0.3189266742432304
+    pitch: 72.24992370605469
+    yaw: 3.8012313842773438
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Royal
+    x: 0.6984181107975609
+    y: 72.0
+    z: 6.683024184219692
+    pitch: 72.24992370605469
+    yaw: 3.8012313842773438
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Royal
+    x: 6.382364506094651
+    y: 72.0
+    z: 0.2053001043390444
+    pitch: 72.24992370605469
+    yaw: 3.8012313842773438
+teams:
+  Зеленый:
+    ==: Team
+    bedfeed:
+      world: Royal
+      x: -13.0
+      y: 73.0
+      z: -79.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Royal
+      x: 0.5
+      y: 71.0
+      z: -64.5
+      pitch: -4.75377082824707
+      yaw: -0.15694376826286316
+    color: GREEN
+    name: Зеленый
+    maxplayers: 4
+    bedhead:
+      world: Royal
+      x: -14.0
+      y: 73.0
+      z: -79.0
+      pitch: 0.0
+      yaw: 0.0
+  Желтый:
+    ==: Team
+    bedfeed:
+      world: Royal
+      x: -79.0
+      y: 73.0
+      z: 13.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Royal
+      x: -64.5
+      y: 71.0
+      z: 0.5
+      pitch: -4.753748893737793
+      yaw: -89.95100402832031
+    color: YELLOW
+    name: Желтый
+    maxplayers: 4
+    bedhead:
+      world: Royal
+      x: -79.0
+      y: 73.0
+      z: 14.0
+      pitch: 0.0
+      yaw: 0.0
+  Красный:
+    ==: Team
+    bedfeed:
+      world: Royal
+      x: 81.0
+      y: 73.0
+      z: -13.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Royal
+      x: 67.5
+      y: 71.0
+      z: 0.5
+      pitch: -3.6119563579559326
+      yaw: 89.89827728271484
+    color: RED
+    name: Красный
+    maxplayers: 4
+    bedhead:
+      world: Royal
+      x: 81.0
+      y: 73.0
+      z: -14.0
+      pitch: 0.0
+      yaw: 0.0
+  Синий:
+    ==: Team
+    bedfeed:
+      world: Royal
+      x: 13.0
+      y: 73.0
+      z: 79.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Royal
+      x: 0.5
+      y: 71.0
+      z: 65.5
+      pitch: -5.014797210693359
+      yaw: 179.6925048828125
+    color: BLUE
+    name: Синий
+    maxplayers: 4
+    bedhead:
+      world: Royal
+      x: 14.0
+      y: 73.0
+      z: 79.0
+      pitch: 0.0
+      yaw: 0.0

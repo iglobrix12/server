@@ -1,0 +1,264 @@
+name: Ghost
+world: Ghost
+loc1:
+  world: Ghost
+  x: -296.66055395183423
+  y: 7.0
+  z: 824.4335801063809
+  pitch: 70.80005645751953
+  yaw: 313.2010498046875
+loc2:
+  world: Ghost
+  x: -165.63652932975694
+  y: 113.0
+  z: 956.6129286880184
+  pitch: 80.10008239746094
+  yaw: 136.3514404296875
+lobby:
+  world: lobby
+  x: 5008.5
+  y: 122.0
+  z: 5033.5
+  pitch: -4.350000858306885
+  yaw: -179.86407470703125
+minplayers: 4
+record: 111
+record-holders:
+- M_Peezedent
+- VANS15423
+- Sasha1185
+- ARTAS
+regionname: Ghost
+time: 1000
+targetmaterial: BED_BLOCK
+mainlobby:
+  world: lobby
+  x: -190.6128183705066
+  y: 68.0
+  z: 990.9216789100371
+  pitch: 22.050016403198242
+  yaw: -176.85000610351562
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ghost
+    x: -238.1398323573502
+    y: 65.0
+    z: 832.883966538222
+    pitch: 49.95000457763672
+    yaw: 274.502197265625
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ghost
+    x: -229.6999999880791
+    y: 63.0
+    z: 828.442214912327
+    pitch: 7.200021266937256
+    yaw: 90.1517333984375
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Ghost
+    x: -173.49473114770777
+    y: 64.0
+    z: 891.4635289738869
+    pitch: 90.0
+    yaw: 181.65142822265625
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ghost
+    x: -228.6999999880791
+    y: 69.0
+    z: 889.6999999880791
+    pitch: 9.899993896484375
+    yaw: 108.7506103515625
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Ghost
+    x: -288.65635016368196
+    y: 64.0
+    z: 888.6736298180041
+    pitch: 77.84996795654297
+    yaw: 0.7509765625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ghost
+    x: -288.26204928810546
+    y: 65.0
+    z: 898.2723427073852
+    pitch: 61.499977111816406
+    yaw: 199.80084228515625
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ghost
+    x: -292.519212796283
+    y: 63.0
+    z: 888.6999999880791
+    pitch: 36.899986267089844
+    yaw: 1.6513671875
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Ghost
+    x: -228.64720449435478
+    y: 64.0
+    z: 832.3148341856553
+    pitch: 90.0
+    yaw: 93.4520263671875
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: Ghost
+    x: -232.6999999880791
+    y: 64.0
+    z: 948.6999999880791
+    pitch: 71.39999389648438
+    yaw: 263.10089111328125
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ghost
+    x: -222.71890081418672
+    y: 65.0
+    z: 948.5118783552736
+    pitch: 76.94999694824219
+    yaw: 100.950927734375
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ghost
+    x: -169.3000000119209
+    y: 63.0
+    z: 891.3000000119209
+    pitch: 16.64996337890625
+    yaw: 151.65118408203125
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ghost
+    x: -232.3000000119209
+    y: 63.0
+    z: 952.6999999880791
+    pitch: 2.9999802112579346
+    yaw: 246.1513671875
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ghost
+    x: -173.66754864462297
+    y: 65.0
+    z: 881.9307225199108
+    pitch: 57.44999313354492
+    yaw: 4.05126953125
+teams:
+  Зеленый:
+    ==: Team
+    bedfeed:
+      world: Ghost
+      x: -285.0
+      y: 79.0
+      z: 893.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ghost
+      x: -284.611316021854
+      y: 74.0
+      z: 889.6440606409526
+      pitch: 24.749990463256836
+      yaw: 270.75115966796875
+    color: GREEN
+    name: Зеленый
+    maxplayers: 3
+    bedhead:
+      world: Ghost
+      x: -284.0
+      y: 79.0
+      z: 893.0
+      pitch: 0.0
+      yaw: 0.0
+  Желтый:
+    ==: Team
+    bedfeed:
+      world: Ghost
+      x: -178.0
+      y: 79.0
+      z: 886.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ghost
+      x: -176.2425819790393
+      y: 74.0
+      z: 890.2378223099672
+      pitch: 16.799945831298828
+      yaw: 87.750732421875
+    color: YELLOW
+    name: Желтый
+    maxplayers: 3
+    bedhead:
+      world: Ghost
+      x: -179.0
+      y: 79.0
+      z: 886.0
+      pitch: 0.0
+      yaw: 0.0
+  Красный:
+    ==: Team
+    bedfeed:
+      world: Ghost
+      x: -228.0
+      y: 79.0
+      z: 944.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ghost
+      x: -231.62153758545344
+      y: 74.0
+      z: 944.7623966188024
+      pitch: 18.000041961669922
+      yaw: 183.7510986328125
+    color: RED
+    name: Красный
+    maxplayers: 3
+    bedhead:
+      world: Ghost
+      x: -228.0
+      y: 79.0
+      z: 943.0
+      pitch: 0.0
+      yaw: 0.0
+  Синий:
+    ==: Team
+    bedfeed:
+      world: Ghost
+      x: -234.0
+      y: 79.0
+      z: 836.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ghost
+      x: -229.56407376830956
+      y: 74.0
+      z: 835.6476522082565
+      pitch: 17.10002899169922
+      yaw: 356.7020263671875
+    color: BLUE
+    name: Синий
+    maxplayers: 3
+    bedhead:
+      world: Ghost
+      x: -234.0
+      y: 79.0
+      z: 837.0
+      pitch: 0.0
+      yaw: 0.0

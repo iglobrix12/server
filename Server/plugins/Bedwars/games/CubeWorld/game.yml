@@ -1,0 +1,246 @@
+name: CubeWorld
+world: CubeWorld
+loc1:
+  world: CubeWorld
+  x: -100.66785717647866
+  y: 130.09546450221035
+  z: 92.08769070743854
+  pitch: 18.21683120727539
+  yaw: 234.16409301757812
+loc2:
+  world: CubeWorld
+  x: 92.08821823135841
+  y: -3.6254574102469332
+  z: -76.20258827534617
+  pitch: -34.51115417480469
+  yaw: 47.748809814453125
+lobby:
+  world: lobby
+  x: 5008.5
+  y: 122.0
+  z: 5033.5
+  pitch: -4.350000858306885
+  yaw: -179.86407470703125
+minplayers: 4
+record: 131
+record-holders:
+- Eymy
+- DarkPyre
+regionname: CubeWorld
+time: 500
+targetmaterial: BED_BLOCK
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: CubeWorld
+    x: -50.5
+    y: 70.0
+    z: -6.5
+    pitch: 90.0
+    yaw: 71.582763671875
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: CubeWorld
+    x: -44.5
+    y: 68.0
+    z: -23.5
+    pitch: 84.7793960571289
+    yaw: 177.29978942871094
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: CubeWorld
+    x: 7.5
+    y: 70.0
+    z: -51.5
+    pitch: 87.38970184326172
+    yaw: 231.07180786132812
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: CubeWorld
+    x: 24.5
+    y: 68.0
+    z: -45.5
+    pitch: 87.91175842285156
+    yaw: 209.40625
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: CubeWorld
+    x: 52.5
+    y: 70.0
+    z: 6.5
+    pitch: 82.69117736816406
+    yaw: 312.77423095703125
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: CubeWorld
+    x: 46.5
+    y: 68.0
+    z: 23.5
+    pitch: 83.47425842285156
+    yaw: 321.1270751953125
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: CubeWorld
+    x: -5.5
+    y: 70.0
+    z: 51.5
+    pitch: 75.90441131591797
+    yaw: 38.91388702392578
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: CubeWorld
+    x: -22.5
+    y: 68.0
+    z: 45.5
+    pitch: 87.38970184326172
+    yaw: -19.556730270385742
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: CubeWorld
+    x: -0.5
+    y: 65.0
+    z: -0.5
+    pitch: 65.20218658447266
+    yaw: -37.567893981933594
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: CubeWorld
+    x: 2.5
+    y: 65.0
+    z: -0.5
+    pitch: 88.6948471069336
+    yaw: 4.196858882904053
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: CubeWorld
+    x: 2.414623478044605
+    y: 65.0
+    z: 2.6338900849817017
+    pitch: 88.6948471069336
+    yaw: 4.196858882904053
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: CubeWorld
+    x: -0.3859323002911224
+    y: 65.0
+    z: 2.5406560991553286
+    pitch: 88.6948471069336
+    yaw: 4.196858882904053
+teams:
+  Желтые:
+    ==: Team
+    bedfeed:
+      world: CubeWorld
+      x: 7.0
+      y: 71.0
+      z: 58.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: CubeWorld
+      x: -2.5
+      y: 71.0
+      z: 47.5
+      pitch: -1.3603848218917847
+      yaw: 181.7370147705078
+    color: YELLOW
+    name: Желтые
+    maxplayers: 3
+    bedhead:
+      world: CubeWorld
+      x: 7.0
+      y: 71.0
+      z: 59.0
+      pitch: 0.0
+      yaw: 0.0
+  Зеленые:
+    ==: Team
+    bedfeed:
+      world: CubeWorld
+      x: -58.0
+      y: 71.0
+      z: 6.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: CubeWorld
+      x: -46.5
+      y: 71.0
+      z: -3.5
+      pitch: -0.9889018535614014
+      yaw: 270.74847412109375
+    color: GREEN
+    name: Зеленые
+    maxplayers: 3
+    bedhead:
+      world: CubeWorld
+      x: -59.0
+      y: 71.0
+      z: 6.0
+      pitch: 0.0
+      yaw: 0.0
+  Красные:
+    ==: Team
+    bedfeed:
+      world: CubeWorld
+      x: 59.0
+      y: 71.0
+      z: -7.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: CubeWorld
+      x: 49.5
+      y: 71.0
+      z: 3.5
+      pitch: -1.6214227676391602
+      yaw: 89.85498809814453
+    color: RED
+    name: Красные
+    maxplayers: 3
+    bedhead:
+      world: CubeWorld
+      x: 60.0
+      y: 71.0
+      z: -7.0
+      pitch: 0.0
+      yaw: 0.0
+  Синее:
+    ==: Team
+    bedfeed:
+      world: CubeWorld
+      x: -6.0
+      y: 71.0
+      z: -59.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: CubeWorld
+      x: 4.5
+      y: 71.0
+      z: -47.5
+      pitch: -1.3603627681732178
+      yaw: 0.5827367305755615
+    color: BLUE
+    name: Синее
+    maxplayers: 3
+    bedhead:
+      world: CubeWorld
+      x: -6.0
+      y: 71.0
+      z: -60.0
+      pitch: 0.0
+      yaw: 0.0

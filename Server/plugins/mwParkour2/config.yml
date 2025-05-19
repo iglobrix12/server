@@ -1,0 +1,307 @@
+options:
+  InvincibleWhileParkour: false
+  RespawnOnLava: true
+  RespawnOnWater: true
+  CheckpointEffect: true
+  removePotionsEffectsOnParkour: false
+  setFullHungerOnParkour: true
+  LastCheckpointTeleport: true
+  BroadcastOnRecord:
+    enable: true
+    message: '&eParkour &7| &7Игрок &ePLAYER &7прошёл паркур! На карте &eMAPNAME'
+rewards:
+  enable: true
+  cooldown: 300
+  cooldownMessage: You will receive your next reward on this map in TIME
+  rewardIfBetterScore: true
+  money:
+    enable: false
+    amount: 10
+    message: '&eParkour &7| &7За прохождение паркура вы получили MONEYAMOUNT монет!'
+  command:
+    enable: false
+    cmd: give PLAYER 5 10
+    message: '&bYou have received 5 wood !'
+Parkour:
+  mapsNombre: 10
+  map1:
+    cp:
+      '1':
+        posX: 164.0
+        posY: 82.0
+        posZ: 691.0
+      '2':
+        posX: 182.0
+        posY: 80.0
+        posZ: 659.0
+      '3':
+        posX: 186.0
+        posY: 79.0
+        posZ: 685.0
+      '4':
+        posX: 187.0
+        posY: 85.0
+        posZ: 655.0
+    world: parkour
+    mapName: Gold
+    mapCreator: helloartz
+    nombreCp: 4
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 164.55523789197505
+      posY: 82.0
+      posZ: 693.2091704628032
+      posPitch: -1.0499802
+      posYaw: 180.0001
+  map2:
+    cp:
+      '1':
+        posX: -100.0
+        posY: 212.0
+        posZ: 1180.0
+      '2':
+        posX: -112.0
+        posY: 195.0
+        posZ: 1075.0
+    world: parkour
+    mapName: Air
+    mapCreator: helloartz
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: -98.89230114032739
+      posY: 212.0
+      posZ: 1183.049119690308
+      posPitch: 3.6000433
+      posYaw: 177.75012
+  map3:
+    cp:
+      '1':
+        posX: -202.0
+        posY: 74.0
+        posZ: 1258.0
+      '2':
+        posX: -195.0
+        posY: 78.0
+        posZ: 1231.0
+      '3':
+        posX: -178.0
+        posY: 85.0
+        posZ: 1265.0
+      '4':
+        posX: -154.0
+        posY: 78.0
+        posZ: 1260.0
+    world: parkour
+    mapName: Library
+    mapCreator: helloartz
+    nombreCp: 4
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: -202.14425824152406
+      posY: 74.0
+      posZ: 1256.52727145407
+      posPitch: 1.0499799
+      posYaw: 355.94968
+  map4:
+    cp:
+      '1':
+        posX: -174.0
+        posY: 89.0
+        posZ: 1037.0
+      '2':
+        posX: -143.0
+        posY: 87.0
+        posZ: 1038.0
+      '3':
+        posX: -109.0
+        posY: 90.0
+        posZ: 1025.0
+    world: parkour
+    mapName: Nether
+    mapCreator: helloartz
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: -176.5
+      posY: 89.0
+      posZ: 1037.5
+      posPitch: 1.6500503
+      posYaw: -91.19981
+  map5:
+    cp:
+      '1':
+        posX: -121.0
+        posY: 70.0
+        posZ: 1284.0
+      '2':
+        posX: -77.0
+        posY: 66.0
+        posZ: 1268.0
+      '3':
+        posX: -46.0
+        posY: 67.0
+        posZ: 1285.0
+    world: parkour
+    mapName: Ender
+    mapCreator: helloartz
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: -122.72740836186634
+      posY: 70.0
+      posZ: 1286.425140036424
+      posPitch: 1.9499664
+      posYaw: 226.9494
+  map6:
+    cp:
+      '1':
+        posX: -374.0
+        posY: 79.0
+        posZ: 1338.0
+      '2':
+        posX: -399.0
+        posY: 79.0
+        posZ: 1297.0
+      '3':
+        posX: -346.0
+        posY: 75.0
+        posZ: 1297.0
+      '4':
+        posX: -288.0
+        posY: 78.0
+        posZ: 1245.0
+    world: parkour
+    mapName: Jungle
+    mapCreator: helloartz
+    nombreCp: 4
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: -368.3921165125468
+      posY: 79.0
+      posZ: 1338.2674548520909
+      posPitch: 4.5000467
+      posYaw: -271.7999
+  map7:
+    cp:
+      '1':
+        posX: -199.0
+        posY: 64.0
+        posZ: 1344.0
+      '2':
+        posX: -199.0
+        posY: 73.0
+        posZ: 1344.0
+    world: parkour
+    mapName: Send
+    mapCreator: helloartz
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: -195.3415168458423
+      posY: 64.0
+      posZ: 1344.4912584015167
+      posPitch: 3.3000245
+      posYaw: 90.90013
+  map8:
+    cp:
+      '1':
+        posX: -58.0
+        posY: 103.0
+        posZ: 2029.0
+      '2':
+        posX: -88.0
+        posY: 102.0
+        posZ: 2038.0
+      '3':
+        posX: -57.0
+        posY: 101.0
+        posZ: 2102.0
+    world: parkour
+    mapName: Mine
+    mapCreator: helloartz
+    nombreCp: 3
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: -57.59495510247363
+      posY: 103.0
+      posZ: 2027.7232113803755
+      posPitch: -0.74996763
+      posYaw: -1.6498693
+  map9:
+    cp:
+      '1':
+        posX: -189.0
+        posY: 65.0
+        posZ: 1445.0
+      '2':
+        posX: -195.0
+        posY: 75.0
+        posZ: 1443.0
+      '3':
+        posX: -196.0
+        posY: 83.0
+        posZ: 1447.0
+      '4':
+        posX: -195.0
+        posY: 95.0
+        posZ: 1445.0
+    world: parkour
+    mapName: Town
+    mapCreator: helloartz
+    nombreCp: 4
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: -186.0218372417115
+      posY: 65.0
+      posZ: 1445.6011628985636
+      posPitch: 0.7500127
+      posYaw: 89.85012
+  map10:
+    cp:
+      '1':
+        posX: 796.0
+        posY: 66.0
+        posZ: 965.0
+      '2':
+        posX: 777.0
+        posY: 72.0
+        posZ: 951.0
+    world: parkour
+    mapName: TingWork
+    mapCreator: helloartz
+    nombreCp: 2
+    toggle: true
+    waterrespawn: true
+    lavarespawn: false
+    spawn:
+      posX: 797.0619610451713
+      posY: 66.0
+      posZ: 967.6501747928583
+      posPitch: -1.7999871
+      posYaw: 176.1001
+Lobby:
+  world: world
+  posX: 148.5
+  posY: 114.0
+  posZ: -102.5
+  posPitch: -4.7999516
+  posYaw: 0.23277012

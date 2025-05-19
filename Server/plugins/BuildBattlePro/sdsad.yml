@@ -1,0 +1,408 @@
+messages:
+  not_enough_players: '&cНедостаточно игроков, чтобы начать игру !'
+  no_players: '&cДля начала игры должно быть не менее 3 игроков !'
+  game_starts_in: '&cИгра начинается через %time%'
+  game_ends_in: '&c%time% осталось'
+  times_up: '&cВремя вышло!'
+  theme: '&eТема:'
+  voting: '&e&lГолосование'
+  prepare_vote: '&7Приготовьтесь начать голосование'
+  player_joined: '&aИгрок &e%player% &aприсоединился. %players%'
+  player_left: '&cИгрок &e%player% &cоставил. %players%'
+  arena_exists: '&cАрена с таким именем уже существует !'
+  arena_not_exists: '&cЭта арена не существует !'
+  no_permission: '&cУ тебя нет разрешения !'
+  no_selection: '&cПожалуйста, сделайте выбор первым !'
+  not_in_plot: '&cВы не на територии !'
+  plot_removed: '&aУчасток успешно удален !'
+  not_in_arena: '&cВы не на арене !'
+  already_in_arena: '&cВы уже на арене !'
+  arena_removed: '&aАрена удалена !'
+  arena_already_started: '&cЭта арена уже началась !'
+  arena_full: '&cЭта арена полна !'
+  floor_changed: '&aПол успешно изменился !'
+  weather_changed: '&aПогода изменилась на &e%weather%'
+  floor_deny_change: '&cПол не может быть изменен !'
+  not_played: '&cВы еще не играли в Battle Battle! Поиграйте !'
+  voted: '&aВы оценили эту постройку как %vote% &a!'
+  vote_changed: '&aВы изменили свой голос на %vote% &a!'
+  arena_ended: '&aИгра закончилась! Спасибо за игру !'
+  cant_build: '&cВы не можете строить за пределами своего региона !'
+  cant_leave_plot: '&cВы не можете выйти за пределы своего региона !'
+  commands_not_allowed: '&cВы не можете выполнить команду, находясь на арене! Только
+    BuildBattle команды !'
+  no_empty_arena: '&cНет пустой арены! пожалуйста, подождите'
+  you_placed: '&8Вы разместили &e%position% &8с &e%points% &8Очков.'
+  server_reload: '&cСервер перезагружается! Остановка BuildBattle...'
+  force_stop: '&aИгра была остановлена силой &e%operator%&a!'
+  arena_not_running: '&cЭта арена не работает !'
+  all_arenas: '&aВсе арены:'
+  cant_vote_for_your_plot: '&cВы не можете голосовать за ваш регион !'
+  cant_wear_equipment: '&cПривет! Вы не можете носить доспехи!'
+  voting_ends: '&aГолосование заканчивается через &e%time%'
+  max_particles: '&cВы можете использовать максимально %amount% эффектов !'
+  particle_removed: '&aЧастица успешно удалена!'
+  cant_place_particle: '&cВы не можете помещать частицы за пределы вашего региона
+    !'
+  most_points_announce: '&aНОВЫЕ БОЛЬШИЕ ОЧКИ !'
+  old_most_points: '&7Самые старые очки: &f%old_value%'
+  new_most_points: '&eНовые точки: &f%new_value%'
+  time_changed: '&aВремя было изменено на &e%time%'
+  plot_cleared: '&aУчасток успешно очищен!'
+  your_position: '&e&lТвоя позиция'
+  thanks_for_playing: '&6&oСпасибо за игру !'
+  biome_changed: '&aПлотность биома была изменена на &e%biome%'
+  cannot_set_theme: '&cНевозможно установить тему при запуске игры !'
+  report_success: '&aВы успешно сообщили об этотой постройке!'
+  already_reported: '&cЭта постройка уже была сообщена кем-то!'
+  report_failed: '&cК сожалению, вы не можете сообщить об этом сборке в это время.'
+  cant_report_yourself: '&cВы не можете сообщить свою собственную постройку !'
+  you_joined_team: '&aВы присоединились &eГруппа %team% !'
+  you_left_team: '&cВы оставили &eГруппа %team% !'
+  your_teammate: '&aИгроки в команде: &e%players%'
+  team_is_full: '&cЭта команда полна!'
+  already_in_that_team: '&cВы уже в этой команде !'
+  theme_blacklisted: '&cЭта тема занесена в черный список !'
+  kicked_due_vip_join: '&cВас выпнули, потому что &6VIP &e%player% &cприсоединился
+    !'
+  no_vip_slot_free: '&cНет VIP-слота бесплатно !'
+  unable_to_join: '&cМы не можем присоединиться к вам на арену! Пожалуйста, свяжитесь
+    с администраторами, чтобы проверить консоль.'
+  not_enough_super_votes: '&cУ вас нет супер голосов !'
+  theme_was_super_voted: '&aИгрок &e%player% &aимеет &bSuperVoted &aтема &e%theme%&a!'
+  start_message:
+  - ' '
+  - '&f&lBuildBattle'
+  - ' '
+  - '&e&lТема: &f&l%theme%'
+  - '&e&lКогда время постройки закончится,'
+  - '&e&lвы сможете проголосовать за каждую постройку !'
+  - ' '
+  end_message:
+  - '&a&l----------------------------------------------------------------'
+  - ' '
+  - '&f&lBuildBattle'
+  - '&e&l%position%&8- &6 %points% очков'
+  - ' '
+  - '&e&lТвоя позиция'
+  - '&7%player_position% &8- &6%player_points% очков'
+  - ' '
+  - '&6&oСпасибо за игру !'
+  - ' '
+  - '&a&l----------------------------------------------------------------'
+  line_spacer: '&a&l----------------------------------------------------------------'
+  party_join: '&7Вы присоединились &e%creator% &7партии!'
+  party_leave: '&7Вы ушли &e%creator% &7партии!'
+  party_invite: '&7Вы пригласили игрока &e%player% &7присоединиться к вашей партии!'
+  party_already_invited: '&e%player% &cуже ожидает приглашения!'
+  party_invite_expired: '&7Ваше приглашение присоединиться &e%creator% партии &7истек!'
+  party_created: '&7Ваше партии было создана !'
+  party_disband: '&cВаше партии расформирована.'
+  party_already_in_party: '&cИгрок &e%player% &cуже в партии !'
+  party_create_failed: '&cЧтобы создать новую вечеринку, пожалуйста, оставьте свое
+    мнение !'
+  party_no_pending_invites: '&cУ вас нет ожидающих приглашений присоединиться к партии!'
+  party_invite_decline: '&7Вы отклонили приглашение от &e%creator% &7партии.'
+  party_not_in_party: '&cВы не в партии!'
+  party_invalid_usage: '&cНедопустимое использование! Используйте /bb party invite
+    <player>'
+  party_player_not_online: '&cЭтот игрок не в сети!'
+  party_not_allowed_to_invite: '&cТолько лидер партии может приглашать участников!'
+  party_player_joined: '&7Игрок &e%player% &7присоединился к вашему партии.'
+  party_player_left: '&7Игрок &e%player% &7покинул вашу партии.'
+  party_arena_full: '&7В этой арене нет места для вашего партии!'
+  party_you_have_been_invited: '&7Вас пригласили присоединиться &e%creator% &7партии!'
+  party_accept_info: '&7>> &e/bb party accept - &aПринять приглашение &7<<'
+  party_decline_info: '&7>> &e/bb party decline - &cОтклонить приглашение &7<<'
+  party_not_allowed: '&cСтороны не допускаются на этом сервере!'
+  party_full: '&cВаша вечеринка полна!'
+  party_cant_invite_yourself: '&cВы не можете пригласить себя!'
+ordinals:
+  st: st
+  nd: nd
+  rd: rd
+  th: th
+leaderboards:
+  wins:
+    title: '&bПожизненные победы'
+    format: '&e%position% &7%player% - &e%wins%'
+  played:
+    title: '&bПожизненная игра'
+    format: '&e%position% &7%player% - &e%played%'
+  blocks_placed:
+    title: '&bПожизненные блоки'
+    format: '&e%position% &7%player% - &e%blocks_placed%'
+  particles_placed:
+    title: '&bПомещенные частицы'
+    format: '&e%position% &7%player% - &e%particles_placed%'
+scoreboard:
+  in-game:
+    title: '&e&lBuildBattle'
+    players: '&fИгроки:'
+    min_players: '&fМинимум Игроков'
+    starting_in: '&fНачало через: &a%time%'
+    time_left: '&fВремя вышло'
+    theme: '&fТема'
+    builder: '&fСтроитель'
+    builders: '&fСтроители'
+    teammate: '&fЧлены команды:'
+    teams: '&fКоманды:'
+    team_mode: '&7Командный Режим'
+    solo_mode: '&7Одиночный Режим'
+    your_vote: '&fВаш голос'
+    waiting: '&aОжидание ...'
+    server: '&egrandpay.ru'
+  main-lobby:
+    title: '&e&lBuildBattle'
+    played: '&fВаше имя: &e%played%'
+    wins: '&fВаши победы: &e%wins%'
+    most_points: '&fБольшинство очков: &e%most_points%'
+    blocks_placed: '&fВсего размещенных блоков: &e%blocks%'
+    particles_placed: '&fОбщее количество частиц: &e%particles%'
+    super_votes: '&fСупер Голоса: &e%super_votes%'
+    server: '&egrandpay.ru'
+stats:
+  title: '&e&lBuildBattle Статистика'
+  played: '&aСыграл: &e%played%'
+  wins: '&aВыигрыши: &e%wins%'
+  most_points: '&aБольшинство очков: &e%most_points%'
+  blocks_placed: '&aРазмещенные блоки: &e%blocks%'
+  particles_placed: '&aПомещенные частицы: &e%particles%'
+  super_votes: '&aСупер Голоса: &e%super_votes%'
+voting:
+  none: '&fНИКТО'
+  very_bad: '&4ОЧЕНЬ ПЛОХО'
+  bad: '&cПЛОХО'
+  ok: '&eОК'
+  nice: '&aХОРОШИЙ'
+  epic: '&5ЭПИЧЕСТКИЙ'
+  legendary: '&6ЛЕГЕНДАРНЫЙ'
+  builder: '&eСтроитель:'
+  builders: '&eСтроители:'
+motd:
+  lobby: '&e&lBuildBattle - &aЛОББИ'
+  ingame: '&e&lBuildBattle - &cВ ИГРЕ'
+  voting: '&e&lBuildBattle - &cГОЛОСОВАНИЕ'
+  ending: '&e&lBuildBattle - &4ЗАВЕРШЕНИЕ'
+gamestate:
+  lobby: '&aЛобби'
+  theme_voting: '&eТема-голосование'
+  ingame: '&eВ игре'
+  voting: '&eГолосование'
+  ending: '&cОкончание'
+change_floor_npc:
+  name: BuildBattle - Change Floor
+signs:
+  join:
+    first_line: '&1&lBuildBattle'
+    second_line: '%arena%'
+    third_line: '%gamestate%'
+    fourth_line: '%players%'
+  auto-join:
+    first_line: '&1&lBuildBattle'
+    second_line: ''
+    third_line: '&4&lАВТО-ЗАХОД'
+    fourth_line: '&8[КЛИК]'
+time:
+  seconds: Seconds
+  minutes: Minutes
+  hours: Hours
+  days: Days
+  years: Years
+  second: Second
+  minute: Minute
+  hour: Hour
+  day: Day
+  year: Year
+gui:
+  banner_creator:
+    items:
+      final_banner:
+        displayname: '&aФинальный баннер'
+        lore:
+        - '&7Нажмите здесь, чтобы взять этот баннер!'
+  arena_list:
+    title: BuildBattle - Все арены
+    solo_title: BuildBattle - Одиночные Арены
+    team_title: BuildBattle - Командные Арены
+    status: '&eСтатут: %status%'
+    mode: '&eРежим: %mode%'
+    players: '&eИгроки: %total_players%'
+    join: '&aНажмите, чтобы присоединиться!'
+  theme_voting:
+    title: 'Опрос: Какая тема?'
+    supervote_item:
+      displayname: '&bСупер Голосование!'
+      lore:
+      - '&7У тебя есть &b%supervotes% супер голосов.'
+      - ''
+      - '&eНажмите для голосования &b%theme%&e!'
+    themes:
+      displayname: '&6Какая тема?'
+      lore:
+      - '&7Вопрос: Какая тема?'
+      - '&7Ответ: &b%theme%'
+      - ''
+      - '&7Текущие голоса: &e%theme_percentage%%'
+  options:
+    title: BuildBattle - Параметры участка
+    items:
+      heads_item:
+        displayname: '&aГоловы'
+        lore:
+        - '&7Улучшите дизайн своей постройки'
+        - '&7причудливыми головами!'
+      change_floor_item:
+        displayname: '&aИзменить этаж'
+        lore:
+        - '&7Перетащите элемент здесь, чтобы сменить пол.'
+      time_item:
+        displayname: '&aВремя'
+        lore:
+        - '&7Нажмите, чтобы настроить время вашего региона !'
+      change_weather_item:
+        displayname: '&aИзменить погоду'
+        lore:
+        - '&7Нажмите, чтобы изменить погоду.'
+        - '&eТекущий: %weather%'
+      particles_item:
+        displayname: '&aЧастицы'
+        lore:
+        - '&7Нажмите, чтобы выбрать из фантастических частиц !'
+      particle_list_item:
+        displayname: '&aСписок частиц'
+        lore:
+        - '&7Удалите частицы с участка'
+      clear_plot_item:
+        displayname: '&c&lОчистить участок'
+        lore:
+        - '&4Предупреждение!'
+        - '&eНажимая на этот предмет,'
+        - '&eваш сюжет мгновенно сбрасывается!'
+      change_biome_item:
+        displayname: '&aИзменение биома'
+        lore:
+        - '&7Нажмите, чтобы настроить биом вашем регионе'
+      banner_creator_item:
+        displayname: '&aСоздатель баннера'
+        lore:
+        - '&7Создайте собственный баннер!'
+  colors:
+    title: '&8Banner Builder'
+  patterns:
+    title: '&8Добавить слой'
+  particles:
+    title: BuildBattle - Частицы
+  particle_list:
+    title: BuildBattle - Активные частицы
+    items:
+      location: '&eМесто нахождения:'
+      click_to_remove: '&eНажмите, чтобы удалить !'
+  biomes:
+    title: BuildBattle - Биомы
+    items:
+      plains:
+        displayname: '&aРавнины'
+        lore:
+        - '&7Нажмите, чтобы установить биома в Plains'
+      mesa:
+        displayname: '&aСтоловая гора'
+        lore:
+        - '&7Нажмите, чтобы установить биома в Mesa'
+      ocean:
+        displayname: '&aОкеан'
+        lore:
+        - '&7Нажмите, чтобы установить биома в Ocean'
+      desert:
+        displayname: '&aDesert'
+        lore:
+        - '&7Нажмите, чтобы установить биома в Desert'
+      forest:
+        displayname: '&aЛес'
+        lore:
+        - '&7Нажмите, чтобы установить биома в Forest'
+      jungle:
+        displayname: '&aДжунгли'
+        lore:
+        - '&7Нажмите, чтобы установить биома в Jungle'
+      swamp:
+        displayname: '&aБолотный'
+        lore:
+        - '&7Нажмите, чтобы установить биома в болото'
+      savanna:
+        displayname: '&aСаванна'
+        lore:
+        - '&7Нажмите, чтобы установить biome в Savanna'
+  time:
+    title: BuildBattle - Время
+    items:
+      morning:
+        displayname: '&a06:00 AM'
+        lore:
+        - '&7Нажмите, чтобы установить время 06:00 AM'
+      mid_morning:
+        displayname: '&a09:00 AM'
+        lore:
+        - '&7Нажмите, чтобы установить время 09:00 AM'
+      noon:
+        displayname: '&a12:00 AM'
+        lore:
+        - '&7Нажмите, чтобы установить время 12:00 AM'
+      afternoon:
+        displayname: '&a03:00 PM'
+        lore:
+        - '&7Нажмите, чтобы установить время 06:00 PM'
+      evening:
+        displayname: '&a06:00 PM'
+        lore:
+        - '&7Нажмите, чтобы установить время 06:00 PM'
+      night:
+        displayname: '&a09:00 PM'
+        lore:
+        - '&7Нажмите, чтобы установить время 09:00 PM'
+      midnight:
+        displayname: '&a12:00 PM'
+        lore:
+        - '&7Нажмите, чтобы установить время 12:00 PM'
+      after_midnight:
+        displayname: '&a03:00 AM'
+        lore:
+        - '&7Нажмите, чтобы установить время 03:00 AM'
+  heads:
+    title: BuildBattle - Головы
+    items:
+      previous_page: Предыдущая страница
+      next_page: Следующая Страница
+      main_page: Вернуться на главную страницу
+  teams:
+    title: Выберите свою команду!
+    items:
+      displayname: Команда %id%
+      nobody: '&7&oНикто'
+items:
+  back_item:
+    displayname: '&cНазад'
+    lore:
+    - '&7Назад к параметрам'
+  leave_item:
+    displayname: '&cОставить BuildBattle'
+    lore:
+    - '&7ПКМ, чтобы оставить BuildBattle.'
+  report_item:
+    displayname: '&c&lСообщить об этом сборке'
+    lore:
+    - '&7Нажмите, чтобы сообщить об этой сборке'
+    - ''
+    - '&4Предупреждение!'
+    - '&7Злоупотребление сообщениями может привести к наказанию!'
+  options_item:
+    displayname: '&aОпции &8(ПКМ)'
+    lore:
+    - '&7Нажмите, чтобы показать варианты настройки'
+  teams_item:
+    displayname: '&aВыбор команды &8(ПКМ)'
+    lore:
+    - '&7Нажмите, чтобы выбрать свою команду!'
+gamemode:
+  solo: СОЛО
+  team: КОМАНДА

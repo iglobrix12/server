@@ -1,0 +1,8 @@
+# ChestCommands configuration file.
+# Tutorial: http://dev.bukkit.org/bukkit-plugins/chest-commands
+
+default-color:
+  name: '&f'
+  lore: '&7'
+update-notifications: true
+anti-click-spam-delay: 200

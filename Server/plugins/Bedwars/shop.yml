@@ -1,0 +1,812 @@
+### SHOP ###
+### NOT ALLOWED CATEGORY MATERIAL: SLIME_BALL, SNOW_BALL, BUCKET, LAVA_BUCKET
+### The categories (unique key!)
+###### Categories:
+###### item:
+######  type: string or int
+######  Itemname or Item-ID which should be 
+######  displayed to represent the category
+###### name: 
+######  type: string
+######  Name of the category
+###### lore:
+######  type: list<string>
+######  The lore (description) the category should have.
+###### order:
+######  type: int
+######  The order the categories will be displayed
+######### Offers:
+######### item1 (first trade item):
+#########  item: 
+#########   type: string or int
+#########   Item-Name or Item-ID
+#########  amount: 
+#########   type: int
+#########   The stack amount the item should have
+#########  name:
+#########   type: string (colorcodes with &)
+#########   A specific name for the item
+#########  enchants:
+#########   key: Has to be the enchant-ID or enchant-name!
+#########   value: The level of the enchant
+#########  lore:
+#########   type: list<string> (colorcodes with &)
+#########   The lores this item should have
+#########  meta:
+#########   type: short (potion) or byte (any other item)
+#########   The meta byte which should be added to the item
+######### item2 (optional, second trade item): See item1
+######### reward (reward item): See item1
+shop:
+    armor:
+        item: GOLD_CHESTPLATE
+        name: Броня 
+        order: 10
+        permission: bw.base
+        lore:
+            - §7Дополнительная защита не помешает тебе.
+        offers:
+            - item1:
+                item: CLAY_BRICK
+                amount: 1
+              reward:
+                item: LEATHER_HELMET
+                amount: 1
+                enchants:
+                    0: 1
+            - item1:
+                item: CLAY_BRICK
+                amount: 1
+              reward:
+                item: LEATHER_LEGGINGS
+                amount: 1
+                enchants:
+                    0: 1
+            - item1:
+                item: CLAY_BRICK
+                amount: 1
+              reward:
+                item: LEATHER_BOOTS
+                amount: 1
+                enchants:
+                    0: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 7
+              item2:
+                item: GOLD_INGOT
+                amount: 14
+              reward:
+                name: '&aМагнитные ботинки'
+                lore:
+                  - "§7Ношу эти ботинки и получаю 75%"
+                  - "§7Вероятность не Knockback!"
+                item: IRON_BOOTS
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: 303
+                amount: 1
+                enchants:
+                    0: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 3
+              reward:
+                item: 303
+                amount: 1
+                enchants:
+                    0: 2
+            - item1:
+                item: IRON_INGOT
+                amount: 7
+              reward:
+                item: 303
+                amount: 1
+                enchants:
+                    0: 3
+            - item1:
+                item: GOLD_INGOT
+                amount: 10
+              reward:
+                name: Шлем
+                namecolor: RED
+                item: 306
+                amount: 1
+                enchants:
+                    0: 2
+    swords:
+        item: GOLD_SWORD
+        name: Мечи
+        order: 20
+        permission: bw.base
+        lore:
+            - §7Тут продается лучшее оружие в мире.
+        offers:
+            - item1:
+                item: CLAY_BRICK
+                amount: 8
+              reward:
+                item: 280
+                amount: 1
+                enchants:
+                    19: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: 283
+                amount: 1
+                enchants:
+                    16: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 3
+              reward:
+                item: 283
+                amount: 1
+                enchants:
+                    16: 2
+            - item1:
+                item: IRON_INGOT
+                amount: 7
+              reward:
+                item: 283
+                amount: 1
+                enchants:
+                    16: 3
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: 267
+                amount: 1
+                enchants:
+                    16: 2
+                    19: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 15
+              item2:
+                item: IRON_INGOT
+                amount: 5
+              reward:
+                name: §4Мечь бога
+                item: 276
+                amount: 1
+                enchants:
+                    16: 1
+                    19: 1
+                    20: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 15
+              reward:
+                name: §cТапор модератора
+                namecolor: GOLD
+                item: 286
+                amount: 1
+                enchants:
+                    34: 1
+                    16: 1
+                    19: 1
+    bows:
+        item: 261
+        name: Луки
+        order: 30
+        permission: bw.base
+        lore:
+            - §7Проверь свою меткость с этими замечательными луками.
+        offers:
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: 261
+                amount: 1
+                enchants:
+                    51: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 7
+              reward:
+                item: 261
+                amount: 1
+                enchants:
+                    51: 1
+                    48: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 13
+              reward:
+                item: 261
+                amount: 1
+                enchants:
+                    51: 1
+                    48: 2
+            - item1:
+                item: GOLD_INGOT
+                amount: 16
+              reward:
+                item: 261
+                amount: 1
+                enchants:
+                    51: 1
+                    50: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 15
+              item2:
+                item: IRON_INGOT
+                amount: 7
+              reward:
+                item: 261
+                amount: 1
+                enchants:
+                    51: 1
+                    50: 1
+                    49: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: 262
+                amount: 1
+    eat:
+        item: APPLE
+        name: Еда
+        order: 40
+        permission: bw.base
+        lore:
+            - §7Возьми еды побольше, вдруг война.
+        offers: 
+            - item1:
+                item: CLAY_BRICK
+                amount: 4
+              reward:
+                item: 282
+                meta: 0
+                amount: 1
+            - item1:
+                item: CLAY_BRICK
+                amount: 4
+              reward:
+                item: GRILLED_PORK
+                amount: 2
+            - item1:
+                item: GOLD_INGOT
+                amount: 6
+              item2:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: 322
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 2
+              reward:
+                item: 297
+                amount: 5
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: 350
+                meta: 1
+                amount: 1
+    pickaxes:
+        item: GOLD_PICKAXE
+        name: Кирки
+        order: 50
+        permission: bw.base
+        lore:
+            - §7Кирки на любой выбор и вкус.
+        offers:
+            - item1:
+                item: CLAY_BRICK
+                amount: 4
+              reward:
+                item: IRON_PICKAXE
+                amount: 1
+                enchants:
+                    35: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 2
+              reward:
+                item: IRON_PICKAXE
+                amount: 1
+                enchants:
+                    35: 2
+            - item1:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: IRON_PICKAXE
+                amount: 1
+                enchants:
+                    35: 3
+            - item1:
+                item: GOLD_INGOT
+                amount: 11
+              item2:
+                item: IRON_INGOT
+                amount: 3
+              reward:
+                item: DIAMOND_PICKAXE
+                amount: 1
+                enchants:
+                    35: 3
+                    32: 4
+    blocks:
+        item: SANDSTONE
+        name: Блоки
+        order: 60
+        permission: bw.base
+        lore:
+            - §7Блоки помогут тебе застроить кровать или добраться до других.
+        offers:
+            - item1:
+                item: CLAY_BRICK
+                amount: 1
+              reward:
+                item: 24
+                meta: 2
+                amount: 2
+            - item1:
+                item: CLAY_BRICK
+                amount: 7
+              reward:
+                item: 121
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 3
+              reward:
+                item: 42
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 4
+              item2:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: 49
+                amount: 2
+            - item1:
+                item: CLAY_BRICK
+                amount: 15
+              reward:
+                item: 89
+                amount: 4
+            - item1:
+                item: CLAY_BRICK
+                amount: 4
+              reward:
+                item: 20
+                amount: 1
+    usefulstuff:
+        item: TNT
+        name: Полезные Вещи
+        order: 70
+        permission: bw.base
+        lore:
+            - §7Ищем полезные вещи? Здесь несколько!
+        offers:
+            - item1:
+                item: IRON_INGOT
+                amount: 3
+              reward:
+                item: TNT
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: 259
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: 54
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: 130
+                amount: 1
+    drinks:
+        item: POTION
+        name: Зелья
+        order: 80
+        permission: bw.base
+        lore:
+            - §7Укрепят Ваш боевой дух!
+        offers:
+            - item1:
+                item: IRON_INGOT
+                amount: 3
+              reward:
+                item: 373
+                amount: 1
+                meta: 8197
+            - item1:
+                item: IRON_INGOT
+                amount: 5
+              reward:
+                item: 373
+                amount: 1
+                meta: 8229
+            - item1:
+                item: IRON_INGOT
+                amount: 7
+              reward:
+                item: 373
+                amount: 1
+                meta: 8194
+            - item1:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: 373
+                amount: 1
+                meta: 8201
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: 373
+                amount: 1
+                meta: 8193
+    main:
+        item: 280
+        name: Разное
+        order: 90
+        permission: bw.base
+        lore:
+            - §7Дополнительные плюшки, которые помогут в бою!
+        offers:
+            - item1:
+                item: IRON_INGOT
+                amount: 15
+              reward:
+                name: '&cСпасательная платформа'
+                lore:
+                    - §7Спасти тебя от аварии
+                    - §7со спасением платформы
+                item: 369
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 3
+              reward:
+                name: '&6Ловушка'
+                lore:
+                    - §7Противник наступает на него, вы будете проинформированы
+                    - "§7и он может передвигаться только в ограниченном объеме."
+                item: 287
+                amount: 1
+            - item1:
+                item: CLAY_BRICK
+                amount: 64
+              reward:
+                name: '&bСтена'
+                lore:
+                    - "§7Активируйте его и получите сразу"
+                    - "§75x3 великая китайская стена перед тобой!"
+                item: BRICK
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 7
+              reward:
+                name: '&aТелепортация пудра'
+                lore:
+                    - "§7Активируйте этот порошок, и вы будете"
+                    - "§7в 6 секунд Spawn телепортирует."
+                    - "§7Внимание: Перемещение нарушает процесс!"
+                item: 289
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 10
+              reward:
+                name: '&c§lТНТ-овца'
+                lore:
+                    - "§7Она будет выходить на вашего соперника"
+                    - "§7и после 8 секунд она §3§lBOOM"
+                item: MONSTER_EGG
+                meta: 91
+                amount: 1
+    gold:
+        item: 265
+        name: §dОсобые предметы для §e§lGOLD
+        order: 100
+        permission: bw.Gold
+        lore:
+            - §cВещи для донатеров.
+        offers:
+            - item1:
+                tem: CLAY_BRICK
+                amount: 2
+              reward:
+                item: 159
+                meta: 4
+                amount: 5
+            - item1:
+                item: GOLD_INGOT
+                amount: 5
+              reward:
+                item: GOLDEN_APPLE
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: GOLD_HELMET
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 5
+              reward:
+                item: GOLD_CHESTPLATE
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 4
+              reward:
+                item: GOLD_LEGGINGS
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: GOLD_BOOTS
+                amount: 1
+    diamond:
+        item: 266
+        name: §dОсобые предметы для §b§lDIAMOND
+        order: 110
+        permission: bw.Diamond
+        lore:
+            - §cВещи для донатеров.
+        offers:
+            - item1:
+                item: CLAY_BRICK
+                amount: 2
+              reward:
+                item: 159
+                meta: 6
+                amount: 5
+            - item1:
+                item: GOLD_INGOT
+                amount: 8
+              reward:
+                item: GOLDEN_APPLE
+                amount: 2
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: GOLD_HELMET
+                amount: 1
+                enchants:
+                     0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 5
+              reward:
+                item: GOLD_CHESTPLATE
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 4
+              reward:
+                item: GOLD_LEGGINGS
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: GOLD_BOOTS
+                amount: 1
+                enchants:
+                     0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 5
+              reward:
+                item: STONE_AXE
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 7
+              reward:
+                item: ENDER_PEARL
+                amount: 1
+    Emerald:
+        item: 264
+        name: §dОсобые предметы для §a§lEMERALD
+        order: 120
+        permission: bw.Emerald
+        lore:
+            - §cВещи для донатеров.
+        offers:
+            - item1:
+                item: CLAY_BRICK
+                amount: 2
+              reward:
+                item: 159
+                meta: 5
+                amount: 5
+            - item1:
+                item: GOLD_INGOT
+                amount: 8
+              reward:
+                item: GOLDEN_APPLE
+                amount: 2
+            - item1:
+                item: GOLD_INGOT
+                amount: 11
+              reward:
+                item: GOLDEN_APPLE
+                meta: 1
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: GOLD_HELMET
+                amount: 1
+                enchants:
+                     0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 5
+              reward:
+                item: GOLD_CHESTPLATE
+                amount: 1
+                enchants:
+                     0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 4
+              reward:
+                item: GOLD_LEGGINGS
+                amount: 1
+                enchants:
+                    0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: GOLD_BOOTS
+                amount: 1
+                enchants:
+                     0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 5
+              reward:
+                item: STONE_AXE
+                amount: 1
+                enchants:
+                    32: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 7
+              reward:
+                item: ENDER_PEARL
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 10
+              reward:
+                item: 383
+                amount: 1
+                meta: 91
+            - item1:
+                item: GOLD_INGOT
+                amount: 7
+              reward:
+                item: 346
+                amount: 1
+    Shulker:
+        item: 388
+        name: §dОсобые предметы для §f§lSHULKER
+        order: 130
+        permission: bw.Shulker
+        lore:
+            - §cВещи для донатеров.
+        offers:
+            - item1:
+                item: CLAY_BRICK
+                amount: 2
+              reward:
+                item: 159
+                meta: 3
+                amount: 5
+            - item1:
+                item: GOLD_INGOT
+                amount: 8
+              reward:
+                item: GOLDEN_APPLE
+                amount: 2
+            - item1:
+                item: GOLD_INGOT
+                amount: 11
+              reward:
+                item: GOLDEN_APPLE
+                meta: 1
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: GOLD_HELMET
+                amount: 1
+                enchants:
+                     0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 5
+              reward:
+                item: GOLD_CHESTPLATE
+                amount: 1
+                enchants:
+                0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 4
+              reward:
+                item: GOLD_LEGGINGS
+                amount: 1
+                enchants:
+                     0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: GOLD_BOOTS
+                amount: 1
+                enchants:
+                     0: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 5
+              reward:
+                item: STONE_AXE
+                amount: 1
+                enchants:
+                    32: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 7
+              reward:
+                item: ENDER_PEARL
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 10
+              reward:
+                item: 383
+                amount: 1
+                meta: 91
+            - item1:
+                item: GOLD_INGOT
+                amount: 3
+              reward:
+                item: 354
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 7
+              reward:
+                item: 346
+                amount: 1

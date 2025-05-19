@@ -1,0 +1,30 @@
+#The name of the kit
+kitName: '&aМаг'
+# The material this kit should have in the inventory menu
+icon: EXP_BOTTLE
+# The position the kit will hold in the inventory menu starting from the top left and moving right. 
+# No two kits can use the same number. This value allows you to sort the kits however you want. 
+menuPostion: 25
+# The cost to use the kit in one game. 
+cost: 75
+# The cost to permanent unlock the kit.
+permCost: 800
+# Additional text added to the lores of the item in the inventory menu. You can use color codes at the start of each line. (optional)
+details:
+- '§7Золотой меч'
+- '§7Золотой нагрудник'
+- '§7Золотые ботинки'
+- '§7Пузырек опыта §8x8'
+- '§r'
+# The items in this kit. First item should be the material name (as found on http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html)
+# The second number is the quantity of the item that will be given. 
+# The third item and so on is for Enchantments. You can add multiple enchantments by putting a space between each one. 
+items:
+- GOLD_SWORD 1
+- GOLD_CHESTPLATE 1
+- GOLD_BOOTS 1
+- EXP_BOTTLE 8
+# The potion effects give with this kit. First item should be the potion effect name (as found on http://minecraft.gamepedia.com/Status_effect). No Spaces.
+# The second number is length of time (in seconds) the effect lasts (-1 is Infinite). 
+# The third item is the potion strength level.
+potionEffects: []

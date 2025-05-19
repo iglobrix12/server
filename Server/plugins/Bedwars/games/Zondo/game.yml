@@ -1,0 +1,285 @@
+name: Zondo
+world: zondo
+loc1:
+  world: zondo
+  x: 126.27207799935046
+  y: 113.22239674746459
+  z: -120.74194542702324
+  pitch: 27.750076293945312
+  yaw: -310.7987976074219
+loc2:
+  world: zondo
+  x: -137.24093559660236
+  y: 8.691528971803224
+  z: 131.05266943099906
+  pitch: -4.349931240081787
+  yaw: -129.29864501953125
+lobby:
+  world: lobby
+  x: 5008.5
+  y: 122.0
+  z: 5033.5
+  pitch: -4.350000858306885
+  yaw: -179.86407470703125
+minplayers: 4
+record: 74
+record-holders:
+- Adlet2008
+- ZEROFFI
+- TEPOCEP
+- maximushka
+regionname: Zondo
+time: 1000
+targetmaterial: BED_BLOCK
+builder: GrandCraft
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: zondo
+    x: -81.5
+    y: 62.5
+    z: 1.5
+    pitch: 66.75010681152344
+    yaw: -283.49945068359375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: zondo
+    x: -81.5
+    y: 62.5
+    z: 1.5
+    pitch: 66.75010681152344
+    yaw: -283.49945068359375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: zondo
+    x: 0.5
+    y: 62.5
+    z: 83.5
+    pitch: 74.85011291503906
+    yaw: -29.69948959350586
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: zondo
+    x: 0.5
+    y: 62.5
+    z: 83.5
+    pitch: 74.85011291503906
+    yaw: -29.69948959350586
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: zondo
+    x: 82.5
+    y: 62.5
+    z: 1.5
+    pitch: 67.05011749267578
+    yaw: -121.34934997558594
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: zondo
+    x: 82.5
+    y: 62.5
+    z: 1.5
+    pitch: 67.05011749267578
+    yaw: -121.34934997558594
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: zondo
+    x: 0.5
+    y: 62.5
+    z: -80.5
+    pitch: 53.10011291503906
+    yaw: -175.79937744140625
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: zondo
+    x: 0.5
+    y: 62.5
+    z: -80.5
+    pitch: 53.10011291503906
+    yaw: -175.79937744140625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: zondo
+    x: -46.5
+    y: 64.0
+    z: -42.5
+    pitch: 87.00013732910156
+    yaw: -4.799367427825928
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: zondo
+    x: -43.5
+    y: 64.0
+    z: 48.5
+    pitch: 84.90013885498047
+    yaw: -114.29938507080078
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: zondo
+    x: 47.5
+    y: 64.0
+    z: 45.5
+    pitch: 74.7001953125
+    yaw: -159.59933471679688
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: zondo
+    x: 44.5
+    y: 64.0
+    z: -45.5
+    pitch: 72.45018005371094
+    yaw: -213.1493377685547
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: zondo
+    x: 11.5
+    y: 63.0
+    z: -12.5
+    pitch: 66.15018463134766
+    yaw: -71.2491683959961
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: zondo
+    x: -10.5
+    y: 63.0
+    z: 15.5
+    pitch: 70.65007781982422
+    yaw: -144.59918212890625
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: zondo
+    x: 0.5
+    y: 65.0
+    z: 1.5
+    pitch: 77.7000503540039
+    yaw: -77.69902801513672
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: zondo
+    x: 0.5
+    y: 84.0
+    z: 1.5
+    pitch: 78.60005950927734
+    yaw: -173.84906005859375
+teams:
+  Зеленый:
+    ==: Team
+    bedfeed:
+      world: zondo
+      x: -66.0
+      y: 64.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: zondo
+      x: -77.5
+      y: 63.0
+      z: 1.5
+      pitch: -2.9998719692230225
+      yaw: -89.99966430664062
+    color: GREEN
+    name: Зеленый
+    maxplayers: 4
+    bedhead:
+      world: zondo
+      x: -67.0
+      y: 64.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+  Желтый:
+    ==: Team
+    bedfeed:
+      world: zondo
+      x: 0.0
+      y: 64.0
+      z: -65.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: zondo
+      x: 0.5
+      y: 63.0
+      z: -76.5
+      pitch: -2.849862813949585
+      yaw: -359.8493957519531
+    color: YELLOW
+    name: Желтый
+    maxplayers: 4
+    bedhead:
+      world: zondo
+      x: 0.0
+      y: 64.0
+      z: -66.0
+      pitch: 0.0
+      yaw: 0.0
+  Красный:
+    ==: Team
+    bedfeed:
+      world: zondo
+      x: 66.0
+      y: 64.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: zondo
+      x: 78.5
+      y: 63.0
+      z: 1.5
+      pitch: -3.2999775409698486
+      yaw: -270.7502136230469
+    color: RED
+    name: Красный
+    maxplayers: 4
+    bedhead:
+      world: zondo
+      x: 67.0
+      y: 64.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+  Синий:
+    ==: Team
+    bedfeed:
+      world: zondo
+      x: 0.0
+      y: 64.0
+      z: 67.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: zondo
+      x: 0.5
+      y: 63.0
+      z: 79.5
+      pitch: -2.3998990058898926
+      yaw: -179.70025634765625
+    color: BLUE
+    name: Синий
+    maxplayers: 4
+    bedhead:
+      world: zondo
+      x: 0.0
+      y: 64.0
+      z: 68.0
+      pitch: 0.0
+      yaw: 0.0

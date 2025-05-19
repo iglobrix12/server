@@ -1,0 +1,2104 @@
+savebackconfig: false
+configversion:
+  notify: false
+  created: 785
+  saved: 785
+logging:
+  active: false
+  maxqueuesize: 5000
+  extended:
+    status: false
+    allviolations:
+      debugonly: false
+      backend:
+        trace: false
+        notify: false
+  backend:
+    console:
+      active: false
+      asynchronous: true
+    file:
+      active: false
+      prefix: ''
+    ingamechat:
+      active: false
+      prefix: ''
+      subscriptions: false
+data:
+  expiration:
+    active: false
+    duration: 60
+    history: false
+  consistencychecks:
+    active: true
+    interval: 10
+    maxtime: 2
+    suppresswarnings: false
+protection:
+  plugins:
+    hide:
+      active: true
+      nopermission:
+        message: §e§lCORE §f| Данная команда запрещена для вас.
+        commands:
+        - help
+        - plugins
+        - version
+        - icanhasbukkit
+        - pex
+        - vault-info
+        - vault-convert
+        - pet name
+        - help
+        - antioch
+        - plugins
+        - pl
+        - version
+        - ver
+        - rsec
+        - icanhasbukkit
+        - pex
+        - plugman
+        - d
+        - me
+        - dis
+        - undis
+        - disguise
+      unknowncommand:
+        message: §e§lCORE §f| Данной команды нет на сервере.
+        commands: []
+  commands:
+    consoleonly:
+      active: true
+      message: §e§lCORE §f| Данная команда запрещена для вас
+      commands:
+      - help
+      - togglejail
+      - changepassword
+      - set mob_spawner
+      - //set mob_spawner
+      - plugins
+      - pl
+      - calc for(i=0;i<99999;i++){for(j=0;j<256;j++){for(k=0;k<256;k++){for(a=0;a<256;a++){ln(pi)}}}}
+      - //calc for(i=0;i<99999;i++){for(j=0;j<256;j++){for(k=0;k<256;k++){for(a=0;a<256;a++){ln(pi)}}}}
+      - //calc for
+      - //calc
+      - //calc for(i=0;i<256;i++){for(j=0;j<256;j++){for(k=0;k<256;k++){for(l=0;l<256;l++){ln(pi)}}}}
+      - /calc for(i=0;i<256;i++){for(j=0;j<256;j++){for(k=0;k<256;k++){for(l=0;l<256;l++){ln(pi)}}}}
+      - calc for(i=0;i<256;i++){for(j=0;j<256;j++){for(k=0;k<256;k++){for(l=0;l<256;l++){ln(pi)}}}}
+      - /worldedit:/calc for(i=0;i<256;i++){for(b=0;b<256;b++){for(h=0;h<256;h++){for(n=0;n<256;n++){}}}}
+      - calculate
+      - //calculate
+      - //eval
+      - //solve
+      - //calc
+      - /essentials:gm sp
+      - /essentials:gmsp sp
+      - /essentials:gm spectator
+      - /essentials:gm
+      - /essentials:egm
+      - /essentials:gamemode sp
+      - /essentials:egamemode sp
+      - /gm specta
+      - /gm spectr
+      - /egm spectr
+      - /egm specta
+      - /gamemode spectator
+      - /egamemode spectator
+      - /gm spectator
+      - /egm spectator
+      - /gamemode spect
+      - /gamemode spector
+      - /gamemode spectate
+      - /gm spect
+      - /gm spector
+      - /gm spectate
+      - /egamemode spect
+      - /egamemode spector
+      - /egamemode spectate
+      - /egm spect
+      - /egm spector
+      - /egm spectate
+      - /gm sp
+      - /egm sp
+      - /essentials:g
+      - essentials:fireball
+      - /essentials:fireball
+      - worldguard
+      - getgoods testplugin
+      - halt-activity
+      - whitelist
+      - powertool
+      - essentials:shout
+      - version
+      - ver
+      - i crashskull
+      - /i crashskull
+      - kill *
+      - kill **
+      - thor **
+      - thor *
+      - shock **
+      - shock *
+      - lightning *
+      - lightning **
+      - strike *
+      - strike **
+      - smite *
+      - smite **
+      - thunder
+      - changems
+      - etree
+      - tree
+      - plugman disable nocheatplus
+      - plugman disable AntiCmds
+      - plugman disable
+      - plugman
+      - say
+      - hd
+      - /replace 9
+      - /replace 10
+      - /replace lava
+      - /replace water
+      - //rep
+      - //re
+      - //replace 8
+      - //replace 9
+      - //replace 10
+      - //replace lava
+      - //replace water
+      - /AntiCmds
+      - /holographicdisplays
+      - /essentials:sudo
+      - /essentials:tempmute
+      - /essentials:tempban
+      - /essentials:ban
+      - /essentials:kick
+      - /essentials:mute
+      - /essentials:unmute
+      - essentials:ban
+      - essentials:kick
+      - essentials:mute
+      - essentials:unmute
+      - worldguard:regions removeowner __global__
+      - worldguard:regions addowner __global__
+      - worldguard:regions del __global__
+      - worldguard:regions delete __global__
+      - worldguard:region removeowner __global__
+      - worldguard:region addowner __global__
+      - worldguard:region del __global__
+      - worldguard:region delete __global__
+      - worldguard:rg remove -w world __global__
+      - worldguard:rg delete -w world __global__
+      - worldguard:rg del -w world __global__
+      - epardon
+      - tree
+      - bigtree
+      - silence
+      - esudo
+      - execute
+      - pt
+      - stoplag
+      - ebanip
+      - eunbanip
+      - eunban
+      - ejail
+      - eunjail
+      - icanhasbukkit
+      - me
+      - etnt
+      - nuke
+      - tnt
+      - ekick
+      - skin set
+      - etempban
+      - broadcast
+      - set neather brick
+      - set flowing_lava
+      - snow
+      - gg
+      - //pos2
+      - //pos1
+      - eantioch
+      - emute
+      - pardon
+      - //set 6
+      - unbanip
+      - pardonip
+      - bukkit:unban
+      - bukkit:unbanip
+      - /me
+      - sel poly
+      - /sel poly
+      - //sel poly
+      - /: poly
+      - /pos1 -1000000000,0,-1000000000
+      - gui reload
+      - gui
+      - /; cuboid
+      - ; cuboid
+      - ; poly
+      - pex
+      - rb
+      - speed 100
+      - reloadshop
+      - vault-info
+      - vault-convert
+      - vault-convert
+      - plugman
+      - tpaall
+      - //set 49
+      - //set 09
+      - //set 009
+      - //set 0009
+      - //set 00009
+      - //set 000009
+      - //set 0000009
+      - //set 00000009
+      - //set 000000009
+      - //set 0000000009
+      - //set 00000000009
+      - //set 000000000009
+      - //set 0000000000009
+      - //set 00000000000009
+      - //set 000000000000009
+      - //set 0000000000000009
+      - //set 00000000000000009
+      - //set 000000000000000009
+      - //set 010
+      - //set 0010
+      - //set 00010
+      - //set 000010
+      - //set 0000010
+      - //set 00000010
+      - //set 000000010
+      - //set 0000000010
+      - //set 00000000010
+      - //set 000000000010
+      - //set 0000000000010
+      - //set 00000000000010
+      - //set 000000000000010
+      - //set 0000000000000010
+      - //set 00000000000000010
+      - //set 000000000000000010
+      - //set 0000000000000000010
+      - //set lava
+      - //set 7
+      - //set 8
+      - //set 9
+      - //set 10
+      - //set 11
+      - //set 145
+      - //set 145:1
+      - //set 145:2
+      - //set 12
+      - //set 13
+      - //set 12:1
+      - give 137
+      - speed 4
+      - speed 5
+      - speed 6
+      - speed 7
+      - speed 8
+      - speed 9
+      - speed 10
+      - gm 3
+      - jail
+      - am
+      - mute
+      - ban
+      - hd
+      - eban
+      - ban-ip
+      - warn
+      - give
+      - kick helloartz
+      - mute helloartz
+      - tptoggle helloartz
+      - /tptoggle helloartz
+      - /s helloartz
+      - mute helloartz
+      - etp helloartz
+      - tpo helloartz
+      - etp helloartz
+      - tp helloartz
+      - tphere helloartz
+      - tempmute helloartz
+      - tempban helloartz
+      - fixwarps
+      - setwarp
+      - delwarp
+      - rg del -w world
+      - rg delete -w world
+      - rg remove -w world
+      - rg rem -w world
+      - /rg del -w world
+      - /rg delete -w world
+      - /rg remove -w world
+      - /rg rem -w world
+      - spawnmob
+      - rg del -
+      - rg delete -
+      - rg remove -
+      - rg rem -
+      - gamemode 3
+      - night
+      - mcmmo
+      - am list
+      - worldedit
+      - /worldedit:/set
+      - /worldedit:/replace
+      - /worldedit:/hsphere
+      - /worldedit:/sphere
+      - /worldedit:/hpyramid
+      - /worldedit:/pyramid
+      - /worldedit:/cyl
+      - /worldedit:/hcyl
+      - /worldedit:/move
+      - /worldedit:/set
+      - /worldedit:/walls
+      - /worldedit:/faces
+      - /chestcommands open menu
+      - chestcommands open menu
+      - chestcommands
+      - ncp
+      - bc
+      - rsec
+      - minecraft:me
+      - minecraft
+      - reload
+      - nocheatplus
+      - ml
+      - massivelag
+      - massivecore
+      - massivestore
+      - core
+      - /fp help
+      - fp help
+      - /fp help 18971712
+      - /nethernetwork2skingworld76
+      - /fpt help
+      - /eb give me op
+      - /sigma
+      - case add
+      - banip
+      - ban ip
+      - rg flag __global__
+      - stop
+      - region del __global__
+      - region flag king
+      - rg delete spawn
+      - region delete spawn
+      - rg remove spawn
+      - region remove spawn
+      - rg flag pvp
+      - region flag home
+      - rg delete home
+      - region delete home
+      - rg remove home
+      - region remove home
+      - tpall
+      - restart
+      - pardon
+      - setspawn
+      - pl
+      - plugins
+      - bukkit:ban
+      - about
+      - plugins
+      - bukkit:?
+      - bukkit:w
+      - bukkit:tell
+      - bukkit:me
+      - whisper
+      - ewhisper
+      - bukkit:me
+      - bukkit:help
+      - rg flag mine
+      - region flag mine
+      - rg delete mine
+      - region delete mine
+      - rg remove mine
+      - region remove mine
+      - //set 57
+      - //set 174
+      - //set 152
+      - //set 23
+      - //set 158
+      - //set 8
+      - //set 9
+      - //set 10
+      - //set 11
+      - //set 46
+      - //set 321
+      - //set 355
+      - //set 81
+      - //set 52
+      - //set spawner
+      - //set 407
+      - //set lava
+      - //set water
+      - plugins
+      - stop
+      - /op
+      - brush
+      - /brush
+      - pex
+      - restart
+      - bukkit
+      - whisper
+      - bukkit:w
+      - bukkit:pl
+      - bukkit:plugins
+      - kickall
+      - tpall
+      - op
+      - pex
+      - ewhisper
+      - w
+      - kill helloartz
+      - rg info home
+      - rg info homepvp
+      - rg info h1
+      - rg info h2
+      - rg info h3
+      - rg addowner home
+      - rg addowner homepvp
+      - rg addowner h1
+      - rg addowner h2
+      - rg addowner h3
+      - rg addowner king
+      - rg addowner __global__
+      - rg addmember __global__
+      - rg flag __global__
+      - help
+      - server
+      - rg delete spawn
+      - rg delete home
+      - rg remove spawn
+      - rg remove home
+      - region delete spawn
+      - region delete home
+      - regions delete spawn
+      - regions delete home
+      - region remove spawn
+      - region remove home
+      - regions remove spawn
+      - regions remove home
+      - region remove mine
+      - regions remove mine
+      - region delete mine
+      - regions delete mine
+      - rg delete mine
+      - rg delete mine
+      - rg remove mine
+      - rg remove mine
+      - region remove h1
+      - regions remove h2
+      - region delete h3
+      - regions delete h4
+      - rg delete homepvp
+      - rg delete homepvp
+      - rg remove homepvp
+      - rg remove home
+      - region remove pvp2
+      - regions remove pvp2
+      - region delete pvp2
+      - regions delete pvp2
+      - rg delete pvp2
+      - rg delete pvp2
+      - rg remove pvp2
+      - rg remove pvp2
+      - rg redefine spawn
+      - rg redefine home
+      - rg remove h2
+      - rg remove home
+      - region redefine spawn
+      - region redefine home
+      - regions redefine spawn
+      - region redefine home
+      - regions redefine spawn
+      - regions redefine home
+      - region redefine mine
+      - regions redefine mine
+      - region redefine mine
+      - regions redefine mine
+      - region flag spawn
+      - region flag home
+      - regions flag spawn
+      - regions flag home
+      - region flag spawn
+      - region flag home
+      - regions flag spawn
+      - regions flag home
+      - region flag mine
+      - regions flag mine
+      - region flag mine
+      - regions flag mine
+      - rg flag spawn
+      - rg flag home
+      - rg flag spawn
+      - rg flag home
+      - //set dispenser
+      - /worldguard:rg
+      - /worldguard
+      - /wg:rg
+      - /spawner EnderDragon
+      - set spawner|
+      - //set spawner|enderdragon
+      - //set 52|enderdragon
+      - //set 52
+      - //set spawner
+      - /spawnmob
+      - /spawnmob enderdragon
+      - spawnmob
+      - //set 23
+      - minecraft:me
+      - /minecraft:me
+      - set flowing_lava
+      - //set flowing_lava
+      - op
+      - ac
+      - helpop
+      - tban
+      - tmute
+      - deop
+      - /op
+      - /deop
+      - rsec
+      - /rsec
+      - /essentials:eunban
+      - /set 90
+      - /set 119
+      - /pet wither
+      - /spawnmob endercrystal
+      - /broadcast
+      - /pet ghast
+      - //move
+      - //move -s
+      - /send
+      - /ebcast
+      - /bcast
+      - /bc
+      - /eunban
+      - /pardon
+      - /authme forcelogin
+      - /essentials: null
+      - /essentials:shout
+      - /essentials:ebc
+      - /essentials:ebroadcast
+      - /essentials:broadcast
+      - /essentials:bc
+      - /essentials:ethor
+      - /essentials::lightning
+      - /essentials:elightning
+      - /essentials:eshout
+      - /elightning
+      - /ethor
+      - /eshout
+      - //hcyl
+      - //cyl
+      - /am
+      - /am add
+      - /am add default 2 /pex user
+      - /am add default 2 /pex
+      - /am add default 2
+      - /am add default
+      - /chestcommands open
+      - /chestcommands
+      - /rg flag -w world home
+      - /rg flag -w world
+      - /rg flag -w
+      - /rg flag -w world pvp
+      - /rg flag -w world mine
+      - /rg flag -w world __global__
+      - /rg flag -w world __global__
+      - /rg f -w world spawn
+      - /rg f -w world
+      - /rg f -w
+      - /rg f -w world pvp
+      - /rg f -w world mine
+      - /rg f -w world __global__
+      - /rg f -w world __global__
+      - /region flag -w world spawn
+      - /region flag -w world
+      - /region flag -w
+      - /region flag -w world pvp
+      - /region flag -w world mine
+      - /region flag -w world __global__
+      - /region flag -w world __global__
+      - /region f -w world spawn
+      - /region f -w world
+      - /region f -w
+      - /region f -w world pvp
+      - /region f -w world mine
+      - /region f -w world __global__
+      - /region f -w world __global__
+      - /rg del -w world spawn
+      - /rg del -w world
+      - /rg del -w
+      - /rg del -w world pvp
+      - /rg del -w world mine
+      - /rg delete -w world spawn
+      - /rg delete -w world
+      - /rg delete -w
+      - /rg delete -w world pvp
+      - /rg delete -w world mine
+      - /rg remove -w world spawn
+      - /rg remove -w world
+      - /rg remove -w
+      - /rg remove -w world pvp
+      - /rg remove -w world mine
+      - /rg rem -w world spawn
+      - /rg rem -w world
+      - /rg rem -w
+      - /rg rem -w world pvp
+      - /rg rem -w world mine
+      - /region del -w world spawn
+      - /region del -w world
+      - /region del -w
+      - /region del -w world pvp
+      - /region del -w world mine
+      - /region delete -w world spawn
+      - /region delete -w world
+      - /region delete -w
+      - /region delete -w world pvp
+      - /region delete -w world mine
+      - /region remove -w world spawn
+      - /region remove -w world
+      - /region remove -w
+      - /region remove -w world pvp
+      - /region remove -w world mine
+      - /region rem -w world spawn
+      - /region rem -w world
+      - /region rem -w
+      - /region rem -w world pvp
+      - /region rem -w world mine
+      - /worldedit: null
+      - /worldedit:/set
+      - /worldedit:/replace
+      - /worldedit:/hsphere
+      - /worldedit:/sphere
+      - /worldedit:/hpyramid
+      - /worldedit:/pyramid
+      - /worldedit:/cyl
+      - /worldedit:/hcyl
+      - /worldedit:/move
+      - /worldedit:/set
+      - /worldedit:/set
+      - /worldedit:/set
+      - /worldedit:/set
+      - //set lava
+      - //set 10
+      - //set 11
+      - //set 9
+      - //set water
+      - //walls water
+      - //walls lava
+      - //walls 10
+      - //walls 9
+      - alert
+      - op
+      - deop
+      - /gamerule
+      - /gamerule keepiventory true
+      - /gamerule keepiventory false
+      - /gamerule keepiventory
+      - /pet enderdragon
+      - /pet enderdragon
+      - /ctags
+      - ctags
+      - /coloredtags:coloredtags
+      - /coloredtags:coloredtags
+      - /coloredtags
+      - coloredtags
+      - plugins
+      - stop
+      - reload
+      - /reload
+      - /powertool
+      - powertool
+      - /op
+      - /slay
+      - slay
+      - pt
+      - spawnentity endercrystal
+      - /pt
+      - /spawnentity endercrystal
+      - /spawnentity
+      - spawnentity
+      - authme
+      - /authme
+      - pex
+      - restart
+      - bukkit
+      - whisper
+      - bukkit:w
+      - bukkit:pl
+      - bukkit:plugins
+      - kickall
+      - tpall
+      - pex
+      - ewhisper
+      - w
+      - server
+      - setspawn
+      - delwarp pvp
+      - setwarp pvp
+      - regen
+      - //regen
+      - /regen
+      - /essentials:thor
+      - /essentials:bc
+      - /ebroadcast
+      - /ebc
+      - /eban
+      - /ept
+      - /epowertool
+      - /speed 4
+      - /speed 5
+      - /speed 6
+      - /speed 7
+      - /speed 8
+      - /speed 9
+      - /speed 10
+      - /speed 11
+      - /speed 12
+      - /speed 13
+      - /speed 14
+      - /speed 15
+      - /gm 3
+      - /gamemode 3
+      - halt-activity
+      - tm
+      - fireentity
+      - kittycannon
+      - say
+      - realname
+      - ban
+      - op
+      - ipwhitelist
+      - deop
+      - pex group
+      - anticmds
+      - anticmds
+      - anticmds reload
+      - anticmds del
+      - anticmds delete
+      - plugman
+      - plugman reload
+      - plugman stop
+      - plugman load
+      - plugman:plugman
+      - AntiAD
+      - automessage
+      - oprg
+      - tbanip
+      - automessage:am
+      - automessage:automessage
+      - automessage:automsg
+      - pex
+      - pex user
+      - case add
+      - essentials:tpo
+      - essentials:etpo
+      - antiad:antiad
+      - anticmds:anticmds
+      - minecraft:kill
+      - wban:kick
+      - wban:ban
+      - wban:tempban
+      - wban:tempmute
+      - wban:unmute
+      - wban:wsearch
+      - essentials:ban
+      - essentials:kick
+      - essentials:mute
+      - essentials:unmute
+      - essentials:tempban
+      - essentials:tempmute
+      - worldguard:regions removeowner __global__
+      - worldguard:regions addowner __global__
+      - worldguard:regions del __global__
+      - worldguard:regions delete __global__
+      - worldguard:region removeowner __global__
+      - worldguard:region addowner __global__
+      - worldguard:region del __global__
+      - worldguard:region delete __global__
+      - achievement
+      - minecraft:kick
+      - minecraft
+      - minecraft:ban
+      - fireskull
+      - biomeinfo
+      - biomelist
+      - eabout
+      - eabout 2
+      - opsregion:oprg
+      - automessage
+      - hologram
+      - automsg
+      - etpo
+      - automessage:automsg
+      - holo
+      - holograms
+      - holographicdisplays:hd
+      - holographicdisplays:holo
+      - holographicdisplays:hologram
+      - holographicdisplays:holograms
+      - scoreboard
+      - worldguard
+      - pfmute
+      - pfcls
+      - pfdumpcache
+      - wspeed
+      - reload
+      - sudo
+      - essentials:sudo
+      - tree
+      - bigtree
+      - epardon
+      - stoplag
+      - silence
+      - esudo
+      - stop
+      - set 09
+      - set 010
+      - tnt
+      - mob
+      - nuke
+      - antioch
+      - am
+      - ekill
+      - help
+      - etnt
+      - plugins
+      - pl
+      - eac
+      - whitelist
+      - whitelist on
+      - whitelist reload
+      - publish
+      - debug
+      - version
+      - ver
+      - ebanip
+      - eunbanip
+      - eunban
+      - ejail
+      - eunjail
+      - icanhasbukkit
+      - me
+      - ekick
+      - skin set
+      - etempban
+      - broadcast
+      - set neather brick
+      - set flowing_lava
+      - snow
+      - gg
+      - ac
+      - helpop
+      - pos2
+      - pos1
+      - eantioch
+      - emute
+      - pardon
+      - set 6
+      - unbanip
+      - pardonip
+      - bukkit
+      - me
+      - sel poly
+      - sel poly
+      - sel poly
+      - poly
+      - pos1
+      - cuboid
+      - poly
+      - rb
+      - speed 100
+      - reloadshop
+      - vault      -info
+      - vault      -convert
+      - vault      -convert
+      - tpaall
+      - set 49
+      - set 09
+      - set 009
+      - set 0009
+      - set 00009
+      - set 000009
+      - set 0000009
+      - set 00000009
+      - set 000000009
+      - set 0000000009
+      - set 00000000009
+      - set 000000000009
+      - set 0000000000009
+      - set 00000000000009
+      - set 000000000000009
+      - set 0000000000000009
+      - set 00000000000000009
+      - set 000000000000000009
+      - set 010
+      - set 0010
+      - set 00010
+      - set 000010
+      - set 0000010
+      - set 00000010
+      - set 000000010
+      - set 0000000010
+      - set 00000000010
+      - set 000000000010
+      - set 0000000000010
+      - set 00000000000010
+      - set 000000000000010
+      - set 0000000000000010
+      - set 00000000000000010
+      - set 000000000000000010
+      - set 0000000000000000010
+      - set lava
+      - set 7
+      - set 8
+      - set 9
+      - set 10
+      - set 11
+      - set 145
+      - set 12
+      - set 13
+      - give 137
+      - speed 4
+      - speed 5
+      - speed 6
+      - speed 7
+      - speed 8
+      - speed 9
+      - speed 10
+      - gm 3
+      - jail
+      - am
+      - mute
+      - hd
+      - eban
+      - warn
+      - give
+      - kick helloartz
+      - mute helloartz
+      - fixwarps
+      - setwarp
+      - esetwarp
+      - essentials:setwarp
+      - essentials:esetwarp
+      - delwarp
+      - rg del       -w world
+      - rg delete       -w world
+      - rg remove       -w world
+      - rg rem       -w world
+      - rg del       -w world home
+      - rg delete       -w world home
+      - rg remove       -w world home
+      - rg rem       -w world home
+      - rg del       -w world homepvp
+      - rg delete       -w world homepvp
+      - rg remove       -w world homepvp
+      - rg rem       -w world homepvp
+      - rg del       -w world h1
+      - rg delete       -w world h1
+      - rg remove       -w world h1
+      - rg rem       -w world h1
+      - rg del       -w world h2
+      - rg delete       -w world h2
+      - rg remove       -w world h2
+      - rg rem       -w world h2
+      - rg del       -w world h3
+      - rg delete       -w world h3
+      - rg remove       -w world h3
+      - rg rem       -w world h3
+      - rg del       -w world king
+      - rg delete       -w world king
+      - rg remove       -w world king
+      - rg rem       -w world king
+      - rg del       -w world
+      - rg delete       -w world
+      - rg remove       -w world
+      - rg rem       -w world
+      - spawnmob
+      - rg del       -
+      - rg delete       -
+      - rg remove       -
+      - rg rem       -
+      - gamemode 3
+      - night
+      - mcmmo
+      - am list
+      - worldedit
+      - chestcommands
+      - ncp
+      - ncp reload
+      - NoCheatPlus
+      - bc
+      - rsec
+      - reload
+      - nocheatplus
+      - ml
+      - massivelag
+      - massivecore
+      - massivestore
+      - core
+      - fp help
+      - fp help
+      - fp help 18971712
+      - nethernetwork2skingworld76
+      - fpt help
+      - eb give me op
+      - sigma
+      - case add
+      - banip
+      - ban ip
+      - rg flag spawn
+      - rg flag home
+      - rg remove home
+      - rg remove h1
+      - rg remove h2
+      - rg remove h3
+      - rg remove homepvp
+      - rg remove king
+      - rg flag __global__
+      - stop
+      - region del spawn
+      - region del home
+      - region del h1
+      - region del h2
+      - region del h3
+      - region del homepvp
+      - region flag king
+      - rg delete spawn
+      - region delete spawn
+      - rg remove spawn
+      - region remove spawn
+      - rg flag pvp
+      - region flag home
+      - rg delete home
+      - region delete home
+      - rg remove home
+      - region remove home
+      - tpall
+      - restart
+      - pardon
+      - setspawn
+      - pl
+      - plugins
+      - about
+      - plugins
+      - whisper
+      - ewhisper
+      - rg flag mine
+      - region flag mine
+      - rg delete mine
+      - region delete mine
+      - rg remove mine
+      - region remove mine
+      - set 57
+      - set 174
+      - set 152
+      - set 23
+      - set 158
+      - set 8
+      - set 9
+      - set 10
+      - set 11
+      - set 46
+      - set 321
+      - set 355
+      - set 81
+      - set 52
+      - set spawner
+      - set 407
+      - set lava
+      - set water
+      - plugins
+      - stop
+      - brush
+      - brush
+      - restart
+      - bukkit
+      - whisper
+      - kickall
+      - tpall
+      - ewhisper
+      - w
+      - rg info home
+      - rg info homepvp
+      - rg info h1
+      - rg info h2
+      - rg info h3
+      - rg addowner home
+      - rg addowner homepvp
+      - rg addowner h1
+      - rg addowner h2
+      - rg addowner h3
+      - rg addowner king
+      - rg addowner __global__
+      - rg addmember __global__
+      - rg flag __global__
+      - help
+      - server
+      - rg delete spawn
+      - rg delete home
+      - rg remove spawn
+      - rg remove home
+      - region delete spawn
+      - region delete home
+      - regions delete spawn
+      - regions delete home
+      - region remove spawn
+      - region remove home
+      - regions remove spawn
+      - regions remove home
+      - region remove mine
+      - regions remove mine
+      - region delete mine
+      - regions delete mine
+      - rg delete mine
+      - rg delete mine
+      - rg remove mine
+      - rg remove mine
+      - region remove h1
+      - regions remove h2
+      - region delete h3
+      - regions delete h4
+      - rg delete homepvp
+      - rg delete homepvp
+      - rg remove homepvp
+      - rg remove home
+      - region remove pvp2
+      - regions remove pvp2
+      - region delete pvp2
+      - regions delete pvp2
+      - rg delete pvp2
+      - rg delete pvp2
+      - rg remove pvp2
+      - rg remove pvp2
+      - rg redefine spawn
+      - rg redefine home
+      - rg remove h2
+      - rg remove home
+      - region redefine spawn
+      - region redefine home
+      - regions redefine spawn
+      - region redefine home
+      - regions redefine spawn
+      - regions redefine home
+      - region redefine mine
+      - regions redefine mine
+      - region redefine mine
+      - regions redefine mine
+      - region flag spawn
+      - region flag home
+      - regions flag spawn
+      - regions flag home
+      - region flag spawn
+      - region flag home
+      - regions flag spawn
+      - regions flag home
+      - region flag mine
+      - regions flag mine
+      - region flag mine
+      - regions flag mine
+      - rg flag spawn
+      - rg flag home
+      - rg flag spawn
+      - rg flag home
+      - set dispenser
+      - worldguard
+      - wg
+      - spawner EnderDragon
+      - set spawner|
+      - set spawner|enderdragon
+      - set 52|enderdragon
+      - set 52
+      - set spawner
+      - spawnmob
+      - spawnmob enderdragon
+      - spawnmob
+      - set 23
+      - set flowing_lava
+      - set flowing_lava
+      - tban
+      - tmute
+      - rsec
+      - rsec
+      - essentials:eunban
+      - set 90
+      - set 119
+      - pet wither
+      - spawnmob endercrystal
+      - broadcast
+      - pet ghast
+      - move
+      - move       -s
+      - send
+      - ebcast
+      - bcast
+      - bc
+      - eunban
+      - pardon      -ip
+      - authme forcelogin
+      - essentials
+      - elightning
+      - eshout
+      - hcyl
+      - cyl
+      - am
+      - am add
+      - am add default 2 pex user
+      - am add default 2 pex
+      - am add default 2
+      - am add default
+      - chestcommands open
+      - chestcommands
+      - rg flag       -w world home
+      - rg flag       -w world
+      - rg flag       -w
+      - rg flag       -w world pvp
+      - rg flag       -w world mine
+      - rg flag       -w world __global__
+      - rg flag       -w world __global__
+      - rg f       -w world spawn
+      - rg f       -w world
+      - rg f       -w
+      - rg f       -w world pvp
+      - rg f       -w world mine
+      - rg f       -w world __global__
+      - rg f       -w world __global__
+      - region flag       -w world spawn
+      - region flag       -w world
+      - region flag       -w
+      - region flag       -w world pvp
+      - region flag       -w world mine
+      - region flag       -w world __global__
+      - region flag       -w world __global__
+      - region f       -w world spawn
+      - region f       -w world
+      - region f       -w
+      - region f       -w world pvp
+      - region f       -w world mine
+      - region f       -w world __global__
+      - region f       -w world __global__
+      - rg del       -w world spawn
+      - rg del       -w world
+      - rg del       -w
+      - rg del       -w world pvp
+      - rg del       -w world mine
+      - rg delete       -w world spawn
+      - rg delete       -w world
+      - rg delete       -w
+      - rg delete       -w world pvp
+      - rg delete       -w world mine
+      - rg remove       -w world spawn
+      - rg remove       -w world
+      - rg remove       -w
+      - rg remove       -w world pvp
+      - rg remove       -w world mine
+      - rg rem       -w world spawn
+      - rg rem       -w world
+      - rg rem       -w
+      - rg rem       -w world pvp
+      - rg rem       -w world mine
+      - region del       -w world spawn
+      - region del       -w world
+      - region del       -w
+      - region del       -w world pvp
+      - region del       -w world mine
+      - region delete       -w world spawn
+      - region delete       -w world
+      - region delete       -w
+      - region delete       -w world pvp
+      - region delete       -w world mine
+      - region remove       -w world spawn
+      - region remove       -w world
+      - region remove       -w
+      - region remove       -w world pvp
+      - region remove       -w world mine
+      - region rem       -w world spawn
+      - region rem       -w world
+      - region rem       -w
+      - region rem       -w world pvp
+      - region rem       -w world mine
+      - worldedit
+      - set lava
+      - set 10
+      - set 11
+      - set 9
+      - set water
+      - walls water
+      - walls lava
+      - walls 10
+      - walls 9
+      - alert
+      - gamerule
+      - gamerule keepiventory true
+      - gamerule keepiventory false
+      - gamerule keepiventory
+      - pet enderdragon
+      - pet enderdragon
+      - coloredtags
+      - plugins
+      - stop
+      - reload
+      - reload
+      - slay
+      - slay
+      - spawnentity endercrystal
+      - spawnentity
+      - authme
+      - authme
+      - restart
+      - bukkit
+      - whisper
+      - kickall
+      - tpall
+      - ewhisper
+      - w
+      - server
+      - setspawn
+      - delwarp pvp
+      - setwarp pvp
+      - regen
+      - ebroadcast
+      - ebc
+      - eban
+      - ept
+      - epowertool
+      - speed 4
+      - speed 5
+      - speed 6
+      - speed 7
+      - speed 8
+      - speed 9
+      - speed 10
+      - speed 11
+      - speed 12
+      - speed 13
+      - speed 14
+      - speed 15
+      - gm 3
+      - gamemode 3
+      - elightning **
+      - shock **
+      - give **
+      - eshock **
+      - smite **
+      - esmite **
+      - strike **
+      - estrike **
+      - thor **
+      - ethor **
+      - elightning *
+      - shock *
+      - eshock *
+      - smite *
+      - esmite *
+      - strike *
+      - estrike *
+      - thor *
+      - ethor *
+      - ctags
+      - ipmute
+      - wb
+      - svs
+      - serversigns
+      - hd
+      - tasker enable
+      - calc
+      - //calc
+      - /calc
+      - tasker disable
+      - hologram
+      - holograms
+      - stop
+      - lipmute
+      - pex help
+      - pex config
+      - pex report
+      - pex backend
+      - pex toggle
+      - pex import
+      - pex hierarchy
+      - /schematic
+      - /schem
+      - gamerule
+      - sudo
+      - tban
+      - tcc
+      - tccb
+      - worldborder
+      - pex group
+      - plugman
+      - simplewands
+      - lkick
+      - lmute
+      - creative
+      - lunmute
+      - ebanip
+      - banip
+      - autobackup
+      - ekill *
+      - ekill **
+      - kill *
+      - kill **
+      - /limit
+      - //limit
+      - purge
+      - restart
+      - autopurge
+      - ncp
+      - spigot:restart
+      - backup
+      - autosave
+      - save
+      - estop
+      - lagg area
+      - autosaveworld
+      - jail
+      - dupeip
+      - ldupeip
+      - silence
+      - esilence
+      - setjail
+      - jails
+      - eco give **
+      - eco set **
+      - eco set *
+      - eco give *
+      - eeco give **
+      - eeco set **
+      - eeco set *
+      - eeco give *
+      - execute
+      - economy set *
+      - economy
+      - economy give *
+      - eeconomy give**
+      - eeconomy set **
+      - tell **
+      - delwarp pvp
+      - setwarp pvp
+      - asw
+      - etell **
+      - kill **
+      - ekill **
+      - kick **
+      - whisper **
+      - ewhisper **
+      - reply **
+      - ereply **
+      - ejail
+      - ejails
+      - esetjail
+      - kickall
+      - ekickall
+      - bigtree
+      - tree
+      - slay
+      - eci
+      - enick
+      - ebanip
+      - banip
+      - ept
+      - pt
+      - am add
+      - am
+      - automessage
+      - powertool
+      - epowertool
+      - pt
+      - getgoods testplugin
+      - spawnmob endercrystal
+      - spawnmob giant
+      - spawnmob enderdragon
+      - spawnmob wither
+      - mob enderdragon
+      - mob wither
+      - spawnmob ghast
+      - mob ghast
+      - mob endercrystal
+      - mob giant
+      - pet ghast
+      - pet giant
+      - pet wither
+      - pet enderdragon
+      - //sel poly
+      - enchant 35
+      - //sel
+      - //sel cuboid
+      - //sel extend
+      - //sel ellipsoid
+      - //sel sphere
+      - //sel cyl
+      - /pos1
+      - //pos1
+      - /pos2
+      - //pos2
+      - delwarp mob
+      - pt tpall
+      - authme register
+      - pt permissionsex
+      - permissionsex
+      - //hpos1
+      - pt
+      - pt permissionsex user
+      - pt authme
+      - //walls 79
+      - //walls 10
+      - //walls 8
+      - //walls lava
+      - //walls water
+      - //walls 11
+      - authme unregister
+      - nuke
+      - //walls 90
+      - //walls 119
+      - summon
+      - tpall
+      - rl
+      - op
+      - reload
+      - authme unregister
+      - pt set lava
+      - unregister
+      - authme
+      - region remove spawn2
+      - ncp delay
+      - nocheatplus delay
+      - pex
+      - pex reload
+      - permissionsex
+      - tempipmute
+      - tempipban
+      - lban
+      - ltempmute
+      - ltempban
+      - pex user
+      - demote
+      - promote
+      - m helloartz
+      - msg helloartz
+      - t helloartz
+      - tell helloartz
+      - whisper helloartz
+      - w helloartz
+      - rg f -w world
+      - region f -w world
+      - regions f -w world
+      - rg flag -w world
+      - region flag -w world
+      - regions flag -w world
+      - rg flags -w world
+      - region flags -w world
+      - regions flags -w world
+      - rg flag -w world
+      - region flag -w world
+      - regions flag -w world
+      - rg addowner -w world
+      - region addowner -w world
+      - regions addowner -w world
+      - rg remove -w world
+      - region remove -w world
+      - regions remove -w world
+      - rg addmember -w world
+      - region addmember -w world
+      - regions addmember -w world
+      - rg delete -w world
+      - region delete -w world
+      - regions delete -w world
+      - rg del -w world
+      - region del -w world
+      - regions del -w world
+      - rg rem -w world
+      - region rem -w world
+      - regions rem -w world
+      - region f __global__
+      - region del __global__
+      - region rem __global__
+      - region del __global__
+      - region rem __global__
+      - region delete __global__
+      - rg del __global__
+      - rg rem __global__
+      - rg delete __global__
+      - region remove __global__
+      - rg remove __global__
+      - region addmember __global__
+      - region remove __global__
+      - region addowner __global__
+      - rg addmember __global__
+      - region addmember __global__
+      - region remove __global__
+      - region addowner __global__
+  clients:
+    motd:
+      active: true
+      allowall: false
+checks:
+  blockbreak:
+    direction:
+      active: true
+      actions: cancel vl>10 log:bdirection:0:5:if cancel
+    fastbreak:
+      active: true
+      strict: true
+      delay: 100
+      intervalsurvival: 100
+      grace: 2000
+      actions: cancel vl>0 log:fastbreak:3:5:cif cancel
+    frequency:
+      active: true
+      intervalcreative: 95
+      intervalsurvival: 45
+      shortterm:
+        ticks: 5
+        limit: 7
+      actions: cancel vl>5 log:bbfrequency:3:5:if cancel vl>60 log:bbfrequency:0:5:cif cancel cmd:kickfrequency
+    noswing:
+      active: true
+      actions: cancel vl>10 log:noswing:0:5:if cancel
+    reach:
+      active: true
+      actions: cancel vl>5 log:breach:0:2:if cancel
+    wrongblock:
+      active: true
+      level: 10
+      actions: cancel vl>10 log:bwrong:0:5:if cancel vl>30 log:bwrong:0:5:cif cancel cmd:kickwb
+  blockinteract:
+    direction:
+      active: true
+      actions: cancel vl>10 log:bdirection:0:3:if cancel
+    reach:
+      active: true
+      actions: cancel vl>5 log:breach:0:2:if cancel
+    speed:
+      active: true
+      interval: 2000
+      limit: 60
+      actions: cancel vl>200 log:bspeed:0:2:if cancel vl>1000 cancel log:bspeed:0:2:icf cmd:kickbspeed
+    visible:
+      active: true
+      actions: cancel vl>100 log:bvisible:0:10:if cancel
+  blockplace:
+    against:
+      active: true
+      actions: cancel
+    autosign:
+      active: true
+      skipempty: false
+      actions: cancel vl>10 log:bautosign:0:3:if cancel
+    direction:
+      active: true
+      actions: cancel vl>10 log:bdirection:0:3:if cancel
+    fastplace:
+      active: true
+      limit: 22
+      shortterm:
+        ticks: 10
+        limit: 6
+      actions: cancel vl>100 log:fastplace:3:5:cif cancel
+    reach:
+      active: true
+      actions: cancel vl>5 log:breach:0:2:if cancel
+    noswing:
+      active: true
+      exceptions:
+      - FLINT_AND_STEEL
+      actions: cancel vl>10 log:noswing:0:5:if cancel
+    speed:
+      active: true
+      interval: 45
+      actions: cancel vl>150 log:bpspeed:3:5:if cancel vl>1000 log:bpspeed:3:5:cif cancel
+  chat:
+    color:
+      active: true
+      actions: log:color:0:1:if cancel
+    commands:
+      active: true
+      exclusions: []
+      handleaschat:
+      - me
+      level: 10
+      shortterm:
+        ticks: 18
+        level: 3
+      actions: log:commands:0:5:cf cancel cmd:kickcommands vl>20 log:commands:0:5:cf cancel cmd:tempkick1
+    captcha:
+      active: false
+      characters: abcdefghjkmnpqrtuvwxyzABCDEFGHJKMNPQRTUVWXYZ2346789
+      length: 6
+      question: '&cPlease type ''&6[captcha]&c'' to continue sending messages/commands.'
+      success: '&aOK, it sounds like you''re not a spambot.'
+      tries: 3
+      actions: cancel cmd:kickcaptcha vl>4 log:captcha:2:5:cf cancel cmd:kickcaptcha
+    text:
+      active: true
+      allowvlreset: true
+      frequency:
+        normal:
+          minimum: 0.0
+          factor: 0.9
+          weight: 6
+          level: 160
+          actions: cancel cmd:tellchatnormal vl>7 log:chatnormal:0:5:f cancel cmd:tellchatnormal vl>20 log:chatnormal:0:5:cf cancel cmd:kickchatnormal vl>40 log:chatnormal:0:5:cf cancel cmd:kickchat5
+        shortterm:
+          minimum: 2.0
+          factor: 0.7
+          weight: 3.0
+          level: 20.0
+          actions: log:chatfast:0:5:cf cancel cmd:kickchatfast vl>20 log:chatfast:0:5:cf cancel cmd:kickchat1 vl>40 log:chatfast:0:5:cf cancel cmd:kickchat5
+      message:
+        lettercount: 1.0
+        partition: 1.0
+        uppercase: 1.0
+        afterjoin: 1.5
+        nomoving: 1.5
+        repeatviolation: 1.0
+        repeatglobal: 1.0
+        repeatself: 1.5
+        words:
+          lengthav: 1.0
+          lengthmsg: 1.0
+          noletter: 0.0
+      global:
+        active: true
+        weight: 1.0
+        words:
+          active: false
+        prefixes:
+          active: false
+        similarity:
+          active: false
+      player:
+        active: true
+        words:
+          active: false
+        prefixes:
+          active: false
+        similarity:
+          active: false
+    warning:
+      active: false
+      level: 67
+      message: ''
+      timeout: 10
+    relog:
+      active: false
+      timeout: 5000
+      warning:
+        message: '&cYou relogged really fast! If you keep doing that, you''re going to be banned.'
+        number: 1
+        timeout: 60000
+      kickmessage: Too fast re      -login, try with a little delay.
+      actions: log:relog:0:10:cf cancel vl>20 log:relog:0:10:cf cancel cmd:tempkick5
+    logins:
+      active: false
+      startupdelay: 600
+      perworldcount: false
+      seconds: 10
+      limit: 10
+      kickmessage: Перезайди.
+  combined:
+    bedleave:
+      active: true
+      actions: cancel log:bedleave:0:5:if cmd:kickbedleave
+    enderpearl:
+      active: true
+      preventclickblock: true
+    improbable:
+      active: true
+      level: 300
+      actions: cancel log:improbable:2:8:if
+    invulnerable:
+      active: true
+      triggers:
+        always: false
+        falldistance: true
+      initialticks:
+        join: -1
+      ignore:
+      - FALL
+      modifiers:
+        all: 0
+    munchhausen:
+      active: false
+      actions: cancel vl>100 cancel log:munchhausen:0:60:if
+    yawrate:
+      rate: 380
+      penalty:
+        factor: 1.0
+        minimum: 250
+        maximum: 2000
+      improbable: true
+  fight:
+    canceldead: true
+    toolchangepenalty: 500
+    pvp:
+      knockbackvelocity: default
+    yawrate:
+      active: true
+    angle:
+      active: true
+      threshold: 50
+      actions: cancel vl>100 log:angle:3:5:f cancel vl>250 log:angle:0:5:cif cancel
+    critical:
+      active: true
+      falldistance: 0.06251
+      actions: cancel vl>50 log:critical:0:5:cif cancel
+    direction:
+      active: true
+      strict: false
+      penalty: 500
+      actions: cancel vl>5 log:fdirection:3:5:f cancel vl>20 log:fdirection:0:5:if cancel vl>50 log:fdirection:0:5:cif cancel
+    fastheal:
+      active: true
+      interval: 4000
+      buffer: 1000
+      actions: cancel vl>10 cancel log:fastheal:0:10:i vl>30 cancel log:fastheal:0:10:if
+    godmode:
+      active: true
+      minage: 1100
+      maxage: 5000
+      actions: log:godmode:2:5:if cancel vl>60 log:godmode:2:5:icf cancel
+    noswing:
+      active: true
+      actions: cancel vl>10 log:noswing:0:5:if cancel
+    reach:
+      active: true
+      survivaldistance: 4.4
+      penalty: 500
+      reduce: true
+      reducedistance: 0.9
+      reducestep: 0.15
+      actions: cancel vl>10 log:freach:2:5:if cancel
+    selfhit:
+      active: true
+      actions: log:fselfhit:0:5:if cancel vl>10 log:fselfhit:0:5:icf cancel cmd:kickselfhit
+    speed:
+      active: true
+      limit: 15
+      actions: log:fspeed:0:5:if cancel
+      shortterm:
+        ticks: 7
+        limit: 6
+  inventory:
+    drop:
+      active: true
+      limit: 100
+      timeframe: 20
+      actions: log:drop:0:1:cif cancel cmd:dropkick:0:1
+    fastclick:
+      active: true
+      sparecreative: true
+      tweaks1_5: true
+      limit:
+        shortterm: 4
+        normal: 15
+      actions: cancel vl>50 log:fastclick:3:5:cif cancel
+    instantbow:
+      active: true
+      strict: true
+      delay: 130
+      actions: cancel vl>15 log:instantbow:2:5:if cancel
+    instanteat:
+      active: true
+      actions: log:instanteat:2:5:if cancel
+    fastconsume:
+      active: true
+      duration: 0.7
+      whitelist: false
+      items: []
+      actions: log:fastconsume:2:5:if cancel
+    gutenberg:
+      active: true
+      actions: cancel log:gutenberg:0:10:icf cmd:kickinvaliddata
+    items:
+      active: true
+    open:
+      active: true
+      close: true
+      cancelother: true
+  moving:
+    creativefly:
+      active: true
+      ignoreallowflight: false
+      ignorecreative: false
+      actions: log:flyshort:3:5:f cancel vl>100 log:flyshort:0:5:if cancel vl>400 log:flylong:0:5:cif cancel
+      model:
+        creative:
+          horizontal:
+            speed: 220
+          vertical:
+            maxheight: 128
+            ascend:
+              speed: 100
+    morepackets:
+      active: true
+      seconds: 6
+      epsideal: 20
+      epsmax: 22
+      burst:
+        packets: 40
+        directviolation: 60
+        epmviolation: 180
+      actions: cancel vl>10 log:morepackets:0:2:if cancel vl>100 log:morepackets:0:2:if cancel cmd:kickpackets
+    nofall:
+      active: true
+      dealdamage: true
+      resetonviolation: false
+      resetonteleport: false
+      resetonvehicle: true
+      anticriticals: true
+      actions: log:nofall:0:5:if cancel vl>30 log:nofall:0:5:icf cancel
+    passable:
+      active: true
+      actions: cancel vl>10 log:passable:0:5:if cancel vl>50 log:passable:0:5:icf cancel
+      untracked:
+        teleport:
+          active: true
+        command:
+          active: true
+          tryteleport: true
+          prefixes:
+          - sethome
+          - home set
+          - setwarp
+          - warp set
+          - setback
+          - set back
+          - back set
+    survivalfly:
+      active: true
+      extended:
+        vertical      -accounting: true
+      actions: log:flyshort:3:10:f cancel vl>100 log:flyshort:0:10:if cancel vl>400 log:flylong:0:5:cif cancel vl>1500 log:flylong:0:5:cif cancel cmd:kickfly
+      hover:
+        active: true
+        step: 5
+        ticks: 85
+        loginticks: 0
+        falldamage: true
+        sfviolation: 500
+      setbackpolicy:
+        falldamage: true
+    velocity:
+      activationcounter: 80
+      activationticks: 140
+      strictinvalidation: true
+    tempkickillegal: true
+    loadchunks:
+      join: true
+    sprintinggrace: 2.0
+    assumesprint: true
+    speedgrace: 4.0
+    enforcelocation: default
+    vehicle:
+      enforcelocation: default
+      preventdestroyown: true
+      morepackets:
+        active: true
+        actions: cancel vl>10 log:morepackets:0:2:if cancel
+  net:
+    flyingfrequency:
+      active: true
+      seconds: 5
+      packetspersecond: 60
+      actions: cancel
+      reduceredundant:
+        active: true
+        seconds: 3
+        actions: cancel
+    keepalivefrequency:
+      active: true
+      actions: cancel vl>10 cancel log:keepalive:0:10:if vl>40 cancel log:keepalive:0:10:icf vl>100 cancel log:keepalive:0:10:icf cmd:kickalive
+    sounddistance:
+      active: true
+      maxdistance: 320
+strings:
+  angle: '[player] failed [check]: tried to hit multiple entities at the same time. VL [violations].'
+  ban: ban [player]
+  ban      -ip: ban      -ip [ip]
+  bautosign: '[player] failed [check]: failed autosign with [tags]. VL [violations].'
+  bbfrequency: '[player] failed [check]: tried to break too many blocks within time frame. VL [violations].'
+  bdirection: '[player] failed [check]: tried to interact with a block out of their line of sight. VL [violations].'
+  bedleave: '[player] failed [check]: sends bed leave packets (was not in bed). VL [violations].'
+  bpspeed: '[player] failed [check]: tried to throw projectiles too quickly. VL [violations].'
+  breach: '[player] failed [check]: exceeds block      -interact distance ([reachdistance]). VL [violations].'
+  bspeed: '[player] failed [check]: interacts too fast. VL [violations].'
+  bvisible: '[player] failed [check]: interacts with a block out of sight. VL [violations].'
+  bwrong: '[player] failed [check]: broke another block than clicked. VL [violations].'
+  captcha: '[player] failed captcha repeatedly. VL [violations].'
+  chatnormal: '[player] failed [check]: potentially annoying chat. VL [violations].'
+  color: '[player] failed [check]: sent colored chat message. VL [violations].'
+  commands: '[player] failed [check]: issued too many commands. VL [violations].'
+  combspeed: '[player] failed [check]: performs different actions at very high speed. VL [violations].'
+  critical: '[player] failed [check]: tried to do a critical hit but wasn''t technically jumping [tags]. VL [violations].'
+  drop: '[player] failed [check]: tried to drop more items than allowed. VL [violations].'
+  dropkick: ncp delay ncp kick [player] Dropping items too fast.
+  fastbreak: '[player] failed [check]: tried to break blocks ([blockid]) faster than possible. VL [violations].'
+  fastclick: '[player] failed [check]: tried to move items in their inventory too quickly. VL [violations].'
+  fastconsume: '[player] failed [check]: consumes [food] [tags] too fast. VL [violations].'
+  fastheal: '[player] failed [check]: regenerates health faster than usual. VL [violations].'
+  fastplace: '[player] failed [check]: tried to place too many blocks. VL [violations].'
+  fdirection: '[player] failed [check]: tried to hit an entity out of line of sight. VL [violations].'
+  flyshort: '[player] failed [check]: tried to move unexpectedly. VL [violations].'
+  flylong: '[player] failed [check]: tried to move from [locationfrom] to [locationto] over a distance of [distance] block(s). VL [violations].'
+  freach: '[player] failed [check]: tried to attack entity out of reach. VL [violations].'
+  fselfhit: '[player] failed [check]: tried to self      -hit. VL [violations].'
+  fspeed: '[player] failed [check]: tried to attack with too high a frequency. VL [violations].'
+  gutenberg: '[player] failed [check]: created a book with too many pages. VL [violations].'
+  godmode: '[player] failed [check]: avoided taking damage or lagging. VL [violations].'
+  improbable: '[player] failed [check]: meets the improbable more than expected. VL [violations].'
+  instantbow: '[player] failed [check]: fires bow too fast. VL [violations].'
+  instanteat: '[player] failed [check]: eats food [food] too fast. VL [violations].'
+  keepalive: '[player] failed [check]: spams keep      -alive packets (god/freecam?). VL [violations].'
+  kick: kick [player]
+  kickalive: ncp kick [player] Too many keep      -alive packets.
+  kickbedleave: ncp delay ncp kick [player] Go find a bed!
+  kickbspeed: ncp kick [player] You interacted too fast!
+  kickcaptcha: ncp kick [player] Enter the captcha!
+  kickchat1: ncp tempkick [player] 1 You're still not allowed to spam!
+  kickchat5: ncp tempkick [player] 5 You're not intended to spam!
+  kickchatfast: ncp kick [player] You're not allowed to spam in chat!
+  kickchatnormal: ncp kick [player] Too many chat messages, take a break.
+  kickcommands: ncp tempkick [player] 1 You're not allowed to spam commands!
+  kickfly: ncp delay ncp kick [player] Kicked for flying (or related)
+  kickfrequency: ncp kick [player] You did something too fast!
+  kickgod: ncp kick [player] God mode?
+  kickinvaliddata: ncp kick [player] Invalid data.
+  kickpackets: ncp delay ncp kick [player] Too many packets (extreme lag?)
+  kickselfhit: ncp kick [player] You tried to hit yourself!
+  kickwb: ncp kick [player] Block breaking out of sync!
+  knockback: '[player] failed [check]: tried to do a knockback but wasn''t technically sprinting. VL [violations].'
+  morepackets: '[player] failed [check]: sent too many moves ([packets] [tags]). VL [violations].'
+  munchhausen: '[player] failed [check]: almost made it off the pit. VL [violations].'
+  nofall: '[player] failed [check]: tried to avoid fall damage. VL [violations].'
+  chatfast: '[player] failed [check]: acted like spamming (IP: [ip]). VL [violations].'
+  noswing: '[player] failed [check]: didn''t swing arm. VL [violations].'
+  passable: '[player] failed [check]: moved into a block ([blockid]) from [locationfrom] to [locationto] distance [distance] . VL [violations].'
+  relog: '[player] failed [check]: relogs too fast. VL [violations].'
+  tellchatnormal: 'ncp tell [player] &cNCP: &eToo many messages, slow down...'
+  tempkick1: ncp tempkick [player] 1 Wait a minute!
+  tempkick5: ncp tempkick [player] 5 You have five minutes to think about it!
+compatibility:
+  managelisteners: false
+  exemptions:
+    remove:
+      join: true
+      leave: true
+  server:
+    cbdedicated:
+      enable: true
+    cbreflect:
+      enable: true
+  blocks:
+    allowinstantbreak: []
+    overrideflags:
+      snow: default

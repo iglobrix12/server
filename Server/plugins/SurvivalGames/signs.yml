@@ -1,0 +1,52 @@
+# Color codes are supported for the signs customization!
+Signs-Format:
+  Prefix: '&1SurvivalGames'
+  Stats:
+    Line-2: '&4Статистика'
+  Auto-Join:
+    Line-2: '&4&lАвто-заход'
+  Join:
+    Line-2-Color: '&0'
+    Line-4-Color: '&0'
+Signs:
+  Join:
+    resort:
+      world: world
+      x: 180.0
+      y: 115.0
+      z: -64.0
+    gta:
+      world: world
+      x: 179.0
+      y: 115.0
+      z: -64.0
+    teweran:
+      world: world
+      x: 178.0
+      y: 115.0
+      z: -64.0
+    tazader:
+      world: world
+      x: 177.0
+      y: 115.0
+      z: -64.0
+    chernobyl:
+      world: world
+      x: 176.0
+      y: 115.0
+      z: -64.0
+    foland:
+      world: world
+      x: 179.0
+      y: 114.0
+      z: -64.0
+    kingdom:
+      world: world
+      x: 178.0
+      y: 114.0
+      z: -64.0
+    highway:
+      world: world
+      x: 177.0
+      y: 114.0
+      z: -64.0

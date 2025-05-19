@@ -1,0 +1,30 @@
+#The name of the kit
+kitName: '&aАртиллерист'
+# The material this kit should have in the inventory menu
+icon: tnt
+# The position the kit will hold in the inventory menu starting from the top left and moving right. 
+# No two kits can use the same number. This value allows you to sort the kits however you want. 
+menuPostion: 10
+# The cost to use the kit in one game. 
+cost: 65
+# The cost to permanent unlock the kit.
+permCost: 700
+# Additional text added to the lores of the item in the inventory menu. You can use color codes at the start of each line. (optional)
+details:
+- '§7Динамит §8x16'
+- '§7Редстоун §8x32'
+- '§7Кольчужные поножи'
+- '§7Ведро воды'
+- ' '
+# The items in this kit. First item should be the material name (as found on http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html)
+# The second number is the quantity of the item that will be given. 
+# The third item and so on is for Enchantments. You can add multiple enchantments by putting a space between each one. 
+items:
+- tnt 16
+- redstone 32
+- chainmail_leggings 1
+- water_bucket 1
+# The potion effects give with this kit. First item should be the potion effect name (as found on http://minecraft.gamepedia.com/Status_effect). No Spaces.
+# The second number is length of time (in seconds) the effect lasts (-1 is Infinite). 
+# The third item is the potion strength level.
+potionEffects: []

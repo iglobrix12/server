@@ -1,0 +1,13 @@
+wins: 0
+kills: 0
+deaths: 2
+gamesPlayed: 2
+score: -2
+blocksPlaced: 0
+killDeath: 0.0
+glasscolor: red
+effect: happy
+traileffect: lava_drip
+name: helloartz
+balance: -2
+permissions: []

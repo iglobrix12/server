@@ -1,0 +1,50 @@
+menu-settings:
+  name: Выбор арен - BedWars
+  rows: 4
+  commands:
+  - bw
+  open-actions:
+  - ''
+'1':
+  MATERIAL: ender_pearl
+  ACTIONS:
+  - warp BedWars
+  NAME: §bТелепорт к выбору Арен
+  LORE:
+  - §8Телепортация
+  - ''
+  - §7Вы будете перемещены на
+  - §7место где можно будет выбрать
+  - §7карту старым способом.
+  - ''
+  - §e▸ Нажмите, чтобы телепортироваться
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'2':
+  MATERIAL: 401
+  ACTIONS:
+  - bwa
+  NAME: §bВыбор Арен через меню
+  LORE:
+  - §8Меню
+  - ''
+  - §7Вам откроется меню с аренами
+  - §7где вы сможете выбрать себе
+  - §7карту самим. Но вы не будете
+  - §7знать сколько там людей.
+  - ''
+  - §e▸ Нажмите, чтобы открыть меню
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'3':
+  MATERIAL: barrier
+  ACTIONS:
+  - menu
+  NAME: §bГлавное меню
+  LORE:
+  - §7Вернуться в главное меню
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true

@@ -1,0 +1,13 @@
+#These settings are shared across an entire server.  If multiworld is enabled, they act as the default values for the individual world properties; otherwise, they are used directly.
+#Sun May 06 19:57:08 CEST 2018
+Messages.enableAll=true
+Messages.UPDATES=true
+Messages.PLUGIN_CHANNEL_MESSAGE=false
+Messages.INFO=true
+LinkedWorlds=
+Messages.UPDATE_DEBUG=false
+ServerName=\ 
+LastSaved=1525629428158
+Messages.SAVING=true
+Messages.ON_CHUNK_NO_LONGER_NEEDED=false
+Messages.ON_WORLD_LOAD=false

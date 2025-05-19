@@ -1,0 +1,134 @@
+menu-settings:
+  name: Выбор арен - Parkour
+  rows: 5
+  command: pka
+  open-action: ''
+'1':
+  ID: '159:5'
+  COMMAND: 'parkour join 1'
+  NAME: §aGold
+  LORE:
+  - ''
+  - '&eНазвание карты: §aGold'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'2':
+  ID: '159:5'
+  COMMAND: 'parkour join 2'
+  NAME: §aAir
+  LORE:
+  - ''
+  - '&eНазвание карты: §aAir'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'3':
+  ID: '159:5'
+  COMMAND: 'parkour join 3'
+  NAME: §aLibrary
+  LORE:
+  - ''
+  - '&eНазвание карты: §aLibrary'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'4':
+  ID: '159:5'
+  COMMAND: 'parkour join 4'
+  NAME: §aNether
+  LORE:
+  - ''
+  - '&eНазвание карты: §aNether'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'5':
+  ID: '159:5'
+  COMMAND: 'parkour join 5'
+  NAME: §aEnder
+  LORE:
+  - ''
+  - '&eНазвание карты: §aEnder'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+'6':
+  ID: '159:5'
+  COMMAND: 'parkour join 6'
+  NAME: §aJungle
+  LORE:
+  - ''
+  - '&eНазвание карты: §aJungle'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'7':
+  ID: '159:5'
+  COMMAND: 'parkour join 7'
+  NAME: §aSend
+  LORE:
+  - ''
+  - '&eНазвание карты: §aSend'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'8':
+  ID: '159:5'
+  COMMAND: 'parkour join 8'
+  NAME: §aMine
+  LORE:
+  - ''
+  - '&eНазвание карты: §aMine'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'9':
+  ID: '159:5'
+  COMMAND: 'parkour join 9'
+  NAME: §aTown
+  LORE:
+  - ''
+  - '&eНазвание карты: §aTown'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'10':
+  ID: '159:5'
+  COMMAND: 'parkour join 10'
+  NAME: §aTingWork
+  LORE:
+  - ''
+  - '&eНазвание карты: §aTingWork'
+  - ''
+  - '§aНажмите, чтобы присоединиться'
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+'11':
+  ID: 'barrier'
+  COMMAND: 'pk'
+  NAME: §bМеню выбора
+  LORE:
+  - §7Вернуться в меню выбора
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true

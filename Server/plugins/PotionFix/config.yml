@@ -1,0 +1,6 @@
+max-potion:
+  power: 20
+  time: 10h
+item-to-replace: POTION
+remove-all-effects-on-join: false
+save-actions-to-log: true

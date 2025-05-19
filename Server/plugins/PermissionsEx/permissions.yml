@@ -1,0 +1,164 @@
+groups:
+  default:
+    permissions:
+    - -bukkit.command.help
+    - -bukkit.command.me
+    - -bukkit.command.kill
+    - -bukkit.command.tell
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - skinsrestorer.playercmds
+    - skinsrestorer.playercmds
+    - chestcommands.open.*
+    - parkour.use
+    - sg.join
+    - sg.kit
+    - nte.default
+    - essentials.warp
+    - essentials.spawn
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.ignore
+    - essentials.reply
+    - essentials.r
+    - essentials.msg
+    - essentials.online
+    - essentials.list
+    - automessage.receive.user
+    - itemjoin.user
+    - itemjoin.use
+    - bw.base
+    - ultracosmetics.openmenu
+    - ultracosmetics.command.menu
+    - swr.opchest
+    - swr.timevote
+    - swr.jumpvote
+    - swr.weathervote
+    - swr.spectate
+    - swr.useprojeffect
+    - swr.shop
+    - swr.spectateshop
+    - swr.permkits
+    - swr.usecolor
+    - swr.colorshop
+    - swr.useeffect
+    - swr.effectshop
+    - swr.projeffectshop
+    - swr.kit.Alpenist
+    - swr.kit.Arheolog
+    - swr.kit.Artelerist
+    - swr.kit.Berserk
+    - swr.kit.Boec
+    - swr.kit.Char
+    - swr.kit.Drakula
+    - swr.kit.Fermer
+    - swr.kit.Icolog
+    - swr.kit.Mag
+    - swr.kit.Ohotnik
+    - swr.kit.Orugnik
+    - swr.kit.Pauk
+    - swr.kit.Podgigatel
+    - swr.kit.Poltergeist
+    - swr.kit.Ribak
+    - swr.kit.Shakter
+    - swr.kit.Snegovik
+    - swr.kit.Stroitel
+    - swr.kit.Troll
+    - swr.kit.Voin
+    - swr.menu
+    - Friends.Commands.toggle.chat
+    - Friends.Commands.toggle-reyuests
+    - Friends.Commands.List
+    - Friends.Commands.Unblock
+    - Friends.Commands.Block
+    - Friends.Commands.Deny
+    - Friends.Commands.Acceptall
+    - Friends.Commands.Accept
+    - Friends.Commands.Remove
+    - Friends.Commands.Removeall
+    - freind.commands.add
+    - freinds.use
+    options:
+      prefix: '&7'
+      default: true
+  gold:
+    inheritance:
+    - default
+    permissions:
+    - nte.gold
+    - hubs.fly
+    - sg.kits.Gold
+    - swr.kit.free.Gold
+    - bw.gold
+    - sg.kit
+    - sg.kits.Gold
+    - swr.start
+    options:
+      prefix: '&e&lGOLD &e'
+      default: false
+  diamond:
+    inheritance:
+    - gold
+    permissions:
+    - nte.diamond
+    - swr.kit.free.Diamond
+    - bw.Diamond
+    - sg.kits.Diamond
+    - sg.start
+    options:
+      prefix: '&b&lDIAMOND &b'
+      default: false
+  emerald:
+    inheritance:
+    - diamond
+    permissions:
+    - nte.emerald
+    - swr.kit.free.Emerald
+    - bw.Emerald
+    options:
+      prefix: '&a&lEMERALD &a'
+      default: false
+  magma:
+    inheritance:
+    - emerald
+    permissions:
+    - nte.magma
+    options:
+      prefix: '&c&lMAGMA &c'
+      default: false
+  shulker:
+    inheritance:
+    - magma
+    permissions:
+    - swr.kit.free.Shulker
+    - swr.kit.free.Shulkers
+    - bw.Shulker
+    - sg.coins
+    - nte.shulker
+    - ultracosmetics.pets.*
+    - ultracosmetics.particleeffects.*
+    - ultracosmetics.mounts.*
+    - ultracosmetics.morphs.*
+    - ultracosmetics.suits.*
+    - ultracosmetics.gadgets.*
+    - ultracosmetics.hats.*
+    - ultracosmetics.emotes.*
+    - Console.shulker
+    options:
+      prefix: '&f&lSHULKER &f'
+      default: false
+  admin:
+    inheritance:
+    - shulker
+    permissions:
+    - '*'
+    options:
+      prefix: '&c&lADMIN &f'
+      default: false
+schema-version: 1
+users:
+  314af5af-cda8-3811-8e7d-bc94299ee9ed:
+    group:
+    - admin
+    options:
+      name: helloartz

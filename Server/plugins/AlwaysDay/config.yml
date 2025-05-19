@@ -1,0 +1,63 @@
+enabled: true
+worlds:
+  day:
+  - world
+  - bb
+  - Teweran
+  - Resort
+  - FoLand
+  - zondo
+  - Royal
+  - Last
+  - Gtamc
+  - white
+  - KingDom
+  - west
+  - Tees
+  - parkour
+  - highway
+  - Chernobyl
+  - windmill
+  - Tazader
+  - SteamPunk
+  - Red
+  - Overland
+  - CubeWorld
+  - lobby
+  - Ballons
+  - Casino
+  - Ghost
+  - Green
+  night: []
+  calm:
+  - world
+  - bb
+  - Teweran
+  - Resort
+  - FoLand
+  - zondo
+  - Royal
+  - Last
+  - Gtamc
+  - white
+  - KingDom
+  - west
+  - Tees
+  - parkour
+  - highway
+  - Chernobyl
+  - windmill
+  - Tazader
+  - SteamPunk
+  - Red
+  - Overland
+  - CubeWorld
+  - lobby
+  - Ballons
+  - Casino
+  - Ghost
+  - Green
+  storm: []
+updates:
+  autoupdate: true
+  remind: true
